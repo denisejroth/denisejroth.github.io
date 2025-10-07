@@ -62,7 +62,7 @@ You can download my full CV here:
 
 ### Highlights
 
-- **Position**: PhD Candidate, [Strategic Communication Group](https://www.wur.nl/en/Research-Results/Chair-groups/Social-Sciences/Strategic-Communication-Group.htm), [Wageningen University & Research](https://www.wur.nl)
+- **Position**: PhD Candidate, [Strategic Communication Group](https://www.wur.nl/en/Research-Results/Chair-groups/Social-Sciences/Strategic-Communication-Group.htm), [Wageningen University & Research](https://www.wur.nl/en.htm)
 - **Research Areas**: Politicization of science, health misinformation, populist communication 
 - **Methods**: Computational text analysis, surveys, experiments, mixed methods 
 - **Teaching**: Data Types for Health Promotion, Introduction to Text Analysis in R
