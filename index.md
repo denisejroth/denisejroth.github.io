@@ -44,8 +44,6 @@ cta_button_label: contact # the label on the button
 [//]: # (write a bit about yourself here)
 ### Who am I and why do I have a website?  
 
-### **hello** has a simple goal: to make GitHub Pages accessible to everyone.  
-
 I'm a PhD Candidate in Political Communication with a research focus on the intersection of science, media, and politics.
 
 I studied **Political Science** at the University of Mannheim, where I developed a strong interest in political systems and public discourse. I then completed a **Research Master's in the Social Sciences** at **Vrije Universiteit Amsterdam**, with a specialization in **Political Communication**. The interdisciplinary setup of the program allowed me to combine perspectives from media studies, political science, and sociology.
