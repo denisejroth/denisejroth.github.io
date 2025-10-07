@@ -4,8 +4,8 @@ layout: hello-default
 # using Markdown language, you can customize the following variables!
 
 # these variables are required -------------------------------
-banner_title: Personal Website
-banner_subtitle: Denise J. Roth
+banner_title: Denise J. Roth
+banner_subtitle: PhD Candidate 
 background_image: /images/background.jpeg
 
 # all of the following variables are optional -----------------
