@@ -42,16 +42,29 @@ cta_button_label: contact # the label on the button
 
 ---			
 [//]: # (write a bit about yourself here)
-### why **hello**?  
+### Who am I and why do I have a website?  
 
 ### **hello** has a simple goal: to make GitHub Pages accessible to everyone.  
-  
-**hello** is a minimalist template that lets you design a beautiful website or portfolio on GitHub Pages - without installing a Ruby
-development environment, learning to use Jekyll, **or even typing a single line of code**. It's ideal for GitHubbers
-who want to start building their personal website on [GitHub Pages](https://pages.github.com/), but maybe aren't so familiar with web development.
-  
 
-The default layout of **hello** is a streamlined single page with three major customizable sections: a required "about" section, an optional portfolio, and an optional CTA. Using [Liquid](https://shopify.github.io/liquid/) variables declared by in the config and index files, **hello** offers an easy-to-use design where all customizations necessary for a basic personal website can be written in [Markdown](https://www.markdownguide.org/basic-syntax/).  
+I'm a PhD Candidate in Political Communication with a research focus on the intersection of science, media, and politics.
 
+I studied **Political Science** at the University of Mannheim, where I developed a strong interest in political systems and public discourse. I then completed a **Research Master's in the Social Sciences** at **Vrije Universiteit Amsterdam**, with a specialization in **Political Communication**. The interdisciplinary setup of the program allowed me to combine perspectives from media studies, political science, and sociology.
 
-**hello** is adapted from [Twenty](https://html5up.net/twenty), a responsive, mobile-friendly theme by HTML5 Up.
+My current research looks at how science becomes politicized in public debate—especially how actors use **scientific uncertainty** to cast doubt, shape narratives, or influence public trust. I'm particularly interested in topics like **health misinformation**, **populist communication**, and **polarization**. Methodologically, I work with **computational text analysis**, surveys, and experiments.
+
+Outside of academia, I enjoy **bird watching** (yes, really), experimenting with **vegan recipes** that don’t always work out, and **lifting heavy things** at the gym to balance all the time I spend thinking about misinformation, democratic erosion and hate speech.
+
+### Curriculum Vitae 
+
+You can download my full CV here:
+
+[Download PDF](CV_DJRoth.pdf)
+
+---
+
+## Highlights
+
+- **Position**: PhD Candidate, [Strategic Communication Group], [Wageningen University & Research]
+- **Research Areas**: Politicization of science, health misinformation, populist communication 
+- **Methods**: Computational text analysis, surveys, experiments, mixed methods 
+- **Teaching**: Data Types for Health Promotion, Introduction to Text Analysis in R
