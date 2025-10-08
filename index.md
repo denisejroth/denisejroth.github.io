@@ -31,47 +31,60 @@ cv_description: You can view or download my full curriculum vitae here.
 cv_button: /assets/CV_DJRoth.pdf
 cv_button_label: Download CV
 
-publications_list:
-  - author: "**Roth, D.J.**, Bai, N., Biesbroek, R., Dewulf, A., Kruikemeier, S., De Leur, D., van der Velden, M.A.C.G., de Vries, E., & Vliegenthart, R."
+# Research section (was "publications")
+research: true
+research_intro: "Current projects, accepted papers, and published work."
+
+research_list:
+  - author: "<strong>D. J. Roth</strong>, Bai, N., Biesbroek, R., Dewulf, A., Kruikemeier, S., De Leur, D., van der Velden, M. A. C. G., de Vries, E., & Vliegenthart, R."
     year: 2025
-    title: Unveiling Climate Adaptation: A Comprehensive Analysis of Agenda-Setting Dynamics in the United Kingdom and the Netherlands
-    journal: "Science Communication"
+    title: "Unveiling Climate Adaptation: A Comprehensive Analysis of Agenda-Setting Dynamics in the United Kingdom and the Netherlands"
+    journal: Science Communication
     link: https://doi.org/10.1177/10755470251376576
     status: published
 
-  - author: "Schrijver, L., **Roth, D.J.**, Jans, E.G.M., Vrielink, J., & Guldemond, P."
+  - author: "Schrijver, L., <strong>D. J. Roth</strong>, Jans, E. G. M., Vrielink, J., & Guldemond, P."
     year: 2025
-    title: Effective Ways of Casting Doubt? Examining the Different Effects of Blatant and Suggestive Disinformation
-    journal: "International Journal of Communication"
+    title: "Effective Ways of Casting Doubt? Examining the Different Effects of Blatant and Suggestive Disinformation"
+    journal: International Journal of Communication
     link: https://ijoc.org/index.php/ijoc/article/view/23276
     status: published
 
-  - author: "Van der Velden, M., López Ortega, A., **Roth, D.J.**, & Guldemond, P."
-  - year: 2025
-  - title: Populism and Polarization: A Nostalgic Narrative of ‘Us’ and ‘Them’
-  - journal: "Government & Opposition"
-  - status: accepted
+  - author: "Van der Velden, M., López Ortega, A., <strong>D. J. Roth</strong>, & Guldemond, P."
+    year: 2025
+    title: "Populism and Polarization: A Nostalgic Narrative of ‘Us’ and ‘Them’"
+    journal: Government & Opposition
+    status: accepted
 
-  - author: "**Roth, D.J.**, Schäfer, S., Kruikemeier, S., & Vliegenthart, R."
-  - title: Public Attitudes Toward Science and Politics: Understanding Public Perceptions in 16 European Countries
-  - status: under_review
+  - author: "<strong>D. J. Roth</strong>, Schäfer, S., Kruikemeier, S., & Vliegenthart, R."
+    year: 2024
+    title: "Public Attitudes Toward Science and Politics: Understanding Public Perceptions in 16 European Countries"
+    journal: "Under review"
+    status: under_review
 
-  - author: "Schäfer, S., **Roth, D.J.**, Mede, N., Kruikemeier, S., & Vliegenthart, R."
-  - title: Playing it Smart: Can Gamification and Alarmist Framing Improve Public Understanding of Zoonotic Diseases?
-  - status: under_review
+  - author: "Schäfer, S., <strong>D. J. Roth</strong>, Mede, N., Kruikemeier, S., & Vliegenthart, R."
+    year: 2024
+    title: "Playing it Smart: Can Gamification and Alarmist Framing Improve Public Understanding of Zoonotic Diseases?"
+    journal: "Under review"
+    status: under_review
 
-  - author: "Van der Velden, M., López Ortega, A., **Roth, D.J.**, & Guldemond, P."
-  - title: Do We All Long for the Past? Investigating Nostalgia as a Persuasive Political Rhetorical Strategy
-  - status: under_review
+  - author: "Van der Velden, M., López Ortega, A., <strong>D. J. Roth</strong>, & Guldemond, P."
+    year: 2024
+    title: "Do We All Long for the Past? Investigating Nostalgia as a Persuasive Political Rhetorical Strategy"
+    journal: "Under review"
+    status: under_review
 
-  - author: "**Roth, D.J.**, De Vries, E., Schäfer, S., Kruikemeier, S., & Vliegenthart, R."
-  - title: Targeted Hostility: Hateful Communication in YouTube Comments towards Journalists, Politicians, and Scientists
-  - status: wip
+  - author: "<strong>D. J. Roth</strong>, De Vries, E., Schäfer, S., Kruikemeier, S., & Vliegenthart, R."
+    year: 2024
+    title: "Targeted Hostility: Hateful Communication in YouTube Comments towards Journalists, Politicians, and Scientists"
+    journal: "Manuscript in preparation"
+    status: wip
 
-  - author: "**Roth, D.J.**, Van der Velden M., & Damstra, A."
-  - title: The Scientization of Politics: How Politicians Use Science Instrumentally to Depoliticize Conflict
-  - status: wip 
-
+  - author: "<strong>D. J. Roth</strong>, Van der Velden, M., & Damstra, A."
+    year: 2024
+    title: "The Scientization of Politics: How Politicians Use Science Instrumentally to Depoliticize Conflict"
+    journal: "Manuscript in preparation"
+    status: wip
 
 
 
