@@ -57,31 +57,26 @@ research_list:
     status: accepted
 
   - author: "<strong>D. J. Roth</strong>, Schäfer, S., Kruikemeier, S., & Vliegenthart, R."
-    year: 2024
     title: "Public Attitudes Toward Science and Politics: Understanding Public Perceptions in 16 European Countries"
     journal: "Under review"
     status: under_review
 
   - author: "Schäfer, S., <strong>D. J. Roth</strong>, Mede, N., Kruikemeier, S., & Vliegenthart, R."
-    year: 2024
     title: "Playing it Smart: Can Gamification and Alarmist Framing Improve Public Understanding of Zoonotic Diseases?"
     journal: "Under review"
     status: under_review
 
   - author: "Van der Velden, M., López Ortega, A., <strong>D. J. Roth</strong>, & Guldemond, P."
-    year: 2024
     title: "Do We All Long for the Past? Investigating Nostalgia as a Persuasive Political Rhetorical Strategy"
     journal: "Under review"
     status: under_review
 
   - author: "<strong>D. J. Roth</strong>, De Vries, E., Schäfer, S., Kruikemeier, S., & Vliegenthart, R."
-    year: 2024
     title: "Targeted Hostility: Hateful Communication in YouTube Comments towards Journalists, Politicians, and Scientists"
     journal: "Manuscript in preparation"
     status: wip
 
   - author: "<strong>D. J. Roth</strong>, Van der Velden, M., & Damstra, A."
-    year: 2024
     title: "The Scientization of Politics: How Politicians Use Science Instrumentally to Depoliticize Conflict"
     journal: "Manuscript in preparation"
     status: wip
