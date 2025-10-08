@@ -5,7 +5,7 @@ layout: hello-default
 
 # these variables are required -------------------------------
 banner_title: Denise J. Roth
-banner_subtitle: PhD Candidate 
+banner_subtitle: PhD Candidate in Political Communication
 background_image: /images/back.png
 
 # all of the following variables are optional -----------------
