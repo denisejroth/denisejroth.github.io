@@ -18,6 +18,7 @@ favicon: /assets/ico/favicon.ico
 # twitter_username: notsaragong # # your twitter handle
 github_username:  denisejroth # your github username
 linkedin: denise-j-roth # the part after ("https://www.linkedin.com/in/...")
+bluesky_username: deniseroth.bsky.social
 # facebook_username: <-- your facebook username (the part after "https://www.facebook.com/...")
 # google_analytics: <-- your google analytics Tracking ID
 
