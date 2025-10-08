@@ -144,45 +144,42 @@
     <h2><strong>research</strong></h2>
   </header>
 
-  <section class="special container" style="margin-bottom:10em; text-align:center">
-    <div style="padding: 0 1em;">
-     {% if page.research_intro %}
-  <div style="max-width: 700px; margin: 0 auto 2em auto; text-align: center;">
-    <p style="margin: 0;">{{ page.research_intro }}</p>
-  </div>
-{% endif %}
+  <section class="special container" id="research-container" style="margin-bottom:10em">
+    <div style="padding: 0 1em; max-width: 700px; margin: 0 auto; text-align: left;">
+
+      {% if page.research_intro %}
+        <p style="text-align: center;">{{ page.research_intro }}</p>
+      {% endif %}
 
       <ul class="pub-list">
         {% for pub in page.research_list %}
-        <li class="pub-item">
-          <span class="pub-meta">
-            {{ pub.author }}
-            {% if pub.status == "accepted" or pub.status == "published" %}
-              ({{ pub.year }}).
-            {% endif %}
-            <br>
-            “{{ pub.title }}.”
-            {% if pub.journal %}
-              <em>{{ pub.journal }}</em>.
-            {% endif %}
-
-            {% if pub.status == "wip" %}
-              <span class="status-tag wip">Work in Progress</span>
-            {% elsif pub.status == "under_review" %}
-              <span class="status-tag review">Under Review</span>
-            {% elsif pub.status == "accepted" %}
-              <span class="status-tag accepted">Accepted</span>
-            {% elsif pub.status == "published" %}
-              <a href="{{ pub.link }}" target="_blank" class="doi-button">DOI</a>
-            {% endif %}
-          </span>
-        </li>
+          <li class="pub-item">
+            <span class="pub-meta">
+              {{ pub.author }}
+              {% if pub.status == "accepted" or pub.status == "published" %}
+                ({{ pub.year }}).
+              {% endif %}
+              <br>
+              “{{ pub.title }}.”
+              {% if pub.journal %}
+                <em>{{ pub.journal }}</em>.
+              {% endif %}
+              {% if pub.status == "wip" %}
+                <span class="status-tag wip">Work in Progress</span>
+              {% elsif pub.status == "under_review" %}
+                <span class="status-tag review">Under Review</span>
+              {% elsif pub.status == "accepted" %}
+                <span class="status-tag accepted">Accepted</span>
+              {% elsif pub.status == "published" %}
+                <a href="{{ pub.link }}" target="_blank" class="doi-button">DOI</a>
+              {% endif %}
+            </span>
+          </li>
         {% endfor %}
       </ul>
     </div>
   </section>
 </section>
-{% endif %}
 
             <!-- section: work
             {% if page.portfolio %}
