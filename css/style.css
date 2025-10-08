@@ -995,9 +995,9 @@ custom styles adapted from Twenty by HTML5 Up
 /* ===== Research Section ===== */
 .pub-list {
   list-style: none;
-  padding-left: 1.5em;     /* pushes text inward but keeps alignment neat */
+  padding-left: 0;      /* removes internal indentation */
   margin: 2em auto 0;
-  max-width: 800px;        /* slightly narrower than before for balance */
+  max-width: 800px;
   text-align: left;
 }
 
@@ -1058,4 +1058,9 @@ custom styles adapted from Twenty by HTML5 Up
   background-color: #0e6ed8;
   transform: scale(1.05);
   text-decoration: none;
+}
+
+#research .special.container {
+  margin-left: -2em;    /* shift the entire research content left */
+  max-width: 850px;     /* slightly expand width to balance */
 }
