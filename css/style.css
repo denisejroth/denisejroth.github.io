@@ -991,3 +991,48 @@ custom styles adapted from Twenty by HTML5 Up
 			display: inline-block;
 			width: 5em;
 		}
+
+/* Publications list layout */
+.pub-list {
+  list-style: none;
+  padding: 0;
+  margin: 2em auto 0;
+  max-width: 900px;
+  text-align: left;
+}
+.pub-item {
+  margin: 0 0 1.2em 0;
+  line-height: 1.6;
+  position: relative;
+  padding-right: 80px; /* room for DOI button on the right */
+}
+
+/* DOI pill button */
+.doi-button {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-block;
+  background-color: #1185fe;
+  color: #fff !important;
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+.doi-button:hover {
+  background-color: #0e6ed8;
+  transform: translateY(-50%) scale(1.05);
+}
+
+/* Optional: “hanging indent” look for multi-line entries */
+.pub-item .pub-meta {
+  display: inline-block;
+  padding-left: 0;
+  text-indent: 0;
+}
