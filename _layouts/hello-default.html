@@ -152,10 +152,14 @@
       {% endif %}
 
       <ul class="pub-list">
- {% for pub in page.research_list %}
+{% for pub in page.research_list %}
   <li class="pub-item">
     <span class="pub-meta">
-      {{ pub.author }} ({{ pub.year }}).<br>
+      {{ pub.author }}
+      {% if pub.status == "accepted" or pub.status == "published" %}
+        ({{ pub.year }}).
+      {% endif %}
+      <br>
       “{{ pub.title }}.” <em>{{ pub.journal }}</em>.
       {% if pub.status == "wip" %}
         <span class="status-tag wip">Work in Progress</span>
