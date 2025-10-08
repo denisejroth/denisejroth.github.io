@@ -992,7 +992,7 @@ custom styles adapted from Twenty by HTML5 Up
 			width: 5em;
 		}
 
-/* Publications list layout */
+/* Research / publications list */
 .pub-list {
   list-style: none;
   padding: 0;
@@ -1001,13 +1001,29 @@ custom styles adapted from Twenty by HTML5 Up
   text-align: left;
 }
 .pub-item {
+  position: relative;
   margin: 0 0 1.2em 0;
   line-height: 1.6;
-  position: relative;
-  padding-right: 80px; /* room for DOI button on the right */
+  padding-right: 88px; /* space for DOI button on right */
 }
+.pub-item .pub-meta { display: inline-block; }
 
-/* DOI pill button */
+/* Status tags */
+.status-tag {
+  display: inline-block;
+  font-size: 0.75em;
+  font-weight: 600;
+  padding: 2px 8px;
+  margin-left: 6px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+.status-tag.wip     { background:#f1c40f; color:#000; } /* yellow */
+.status-tag.review  { background:#e67e22; color:#fff; } /* orange */
+.status-tag.accepted{ background:#27ae60; color:#fff; } /* green */
+
+/* DOI pill button (only for published with link) */
 .doi-button {
   position: absolute;
   right: 0;
@@ -1028,11 +1044,4 @@ custom styles adapted from Twenty by HTML5 Up
 .doi-button:hover {
   background-color: #0e6ed8;
   transform: translateY(-50%) scale(1.05);
-}
-
-/* Optional: “hanging indent” look for multi-line entries */
-.pub-item .pub-meta {
-  display: inline-block;
-  padding-left: 0;
-  text-indent: 0;
 }
