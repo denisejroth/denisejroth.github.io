@@ -31,21 +31,7 @@ cv_description: You can view or download my full curriculum vitae here.
 cv_button: /assets/CV_DJRoth.pdf
 cv_button_label: Download CV
 
-publications: true
-publications_intro: "Selected publications and works in progress."
 
-publications_list:
-  - author: Roth, D. J., van der Velden, M., & Damstra, A.
-    year: 2025
-    title: The Scientization of Politics: How Politicians Use Science to Legitimize Policy Conflict
-    journal: Science Communication
-    link: https://doi.org/10.xxxx/xxxxx
-
-  - author: Roth, D. J.
-    year: 2024
-    title: Hybrid Media Systems and the Politicization of Science
-    journal: Journal of Communication
-    link: https://doi.org/10.xxxx/xxxxx
 
 
 # optional portfolio section ------------------------------------------
