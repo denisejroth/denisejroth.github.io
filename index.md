@@ -31,12 +31,29 @@ cv_description: You can view or download my full curriculum vitae here.
 cv_button: /assets/CV_DJRoth.pdf
 cv_button_label: Download CV
 
+publications: true
+publications_intro: "Selected publications and works in progress."
+
+publications_list:
+  - author: Roth, D. J., van der Velden, M., & Damstra, A.
+    year: 2025
+    title: The Scientization of Politics: How Politicians Use Science to Legitimize Policy Conflict
+    journal: Science Communication
+    link: https://doi.org/10.xxxx/xxxxx
+
+  - author: Roth, D. J.
+    year: 2024
+    title: Hybrid Media Systems and the Politicization of Science
+    journal: Journal of Communication
+    link: https://doi.org/10.xxxx/xxxxx
+
+
 # optional portfolio section ------------------------------------------
 
 # By declaring these variables, you can include a portfolio showcasing your work and organize your portfolio's items into a custom layout, all without adding any CSS. In addition, you must 1) create an HTML file in the_includes folder for each project with the text you'd like to display, and 2) create a YAML file in the _data folder describing the order in which each project should be shown and categorized. See `/includes/example.html` and `/_data/work.yml` for examples.
 
-portfolio: work # the heading for your portfolio and title of your YAML file
-portfolio_description: you can include a portfolio showcasing your work and organize your portfolio's items into a custom layout, all without adding any CSS. # a description to be desplayed below the heading and above the content
+# portfolio: work # the heading for your portfolio and title of your YAML file
+# portfolio_description: you can include a portfolio showcasing your work and organize your portfolio's items into a custom layout, all without adding any CSS. # a description to be desplayed below the heading and above the content
 
 # optional CTA section --------------------------------------------------
 
