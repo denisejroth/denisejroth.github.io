@@ -48,10 +48,11 @@ cta_button_label: contact # the label on the button
 ---			
 [//]: # (write a bit about yourself here)
 ### Who am I and why do I have a website?  
-I'm a PhD Candidate in Political Communication with a research focus on the intersection of science, media, and politics.
+I'm a PhD Candidate at the [Strategic Communication Group](https://www.wur.nl/en/Research-Results/Chair-groups/Social-Sciences/Strategic-Communication-Group.htm) at [Wageningen University & Research](https://www.wur.nl/en.htm) in Political Communication with a research focus on the intersection of science, media, and politics.
 
 I studied **Political Science** at the University of Mannheim, where I developed a strong interest in political systems and public discourse. I then completed a **Research Master's in the Social Sciences** at **Vrije Universiteit Amsterdam**, with a specialization in **Political Communication**. The interdisciplinary setup of the program allowed me to combine perspectives from media studies, political science, and sociology.
 
 My current research looks at how science becomes politicized in public debate—especially how actors use **scientific uncertainty** to cast doubt, shape narratives, or influence public trust. I'm particularly interested in topics like **health misinformation**, **populist communication**, and **polarization**. Methodologically, I work with **computational text analysis**, surveys, and experiments.
 
 Outside of academia, I enjoy **bird watching** (yes, really), experimenting with **vegan recipes** that don’t always work out, and **lifting heavy things** at the gym to balance all the time I spend thinking about misinformation, democratic erosion and hate speech.
+
