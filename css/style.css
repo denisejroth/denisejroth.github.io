@@ -992,7 +992,7 @@ custom styles adapted from Twenty by HTML5 Up
 			width: 5em;
 		}
 
-/* Research / publications list */
+/* ===== Research Section ===== */
 .pub-list {
   list-style: none;
   padding: 0;
@@ -1000,13 +1000,16 @@ custom styles adapted from Twenty by HTML5 Up
   max-width: 900px;
   text-align: left;
 }
+
 .pub-item {
-  position: relative;
   margin: 0 0 1.2em 0;
   line-height: 1.6;
-  padding-right: 88px; /* space for DOI button on right */
 }
-.pub-item .pub-meta { display: inline-block; }
+
+.pub-meta em {
+  font-style: italic;
+  color: #444; /* subtle gray to separate from title */
+}
 
 /* Status tags */
 .status-tag {
@@ -1019,14 +1022,26 @@ custom styles adapted from Twenty by HTML5 Up
   text-transform: uppercase;
   letter-spacing: 0.4px;
 }
-.status-tag.wip     { background:#f1c40f; color:#000; } /* yellow */
-.status-tag.review  { background:#e67e22; color:#fff; } /* orange */
-.status-tag.accepted{ background:#27ae60; color:#fff; } /* green */
 
-/* DOI pill button (only for published with link) */
+.status-tag.wip {
+  background: #f1c40f; /* yellow */
+  color: #000;
+}
+
+.status-tag.review {
+  background: #e67e22; /* orange */
+  color: #fff;
+}
+
+.status-tag.accepted {
+  background: #27ae60; /* green */
+  color: #fff;
+}
+
+/* DOI button (inline with tags) */
 .doi-button {
   display: inline-block;
-  background-color: #1185fe;
+  background-color: #1185fe; /* blue */
   color: #fff !important;
   font-size: 0.75em;
   font-weight: 600;
@@ -1038,6 +1053,7 @@ custom styles adapted from Twenty by HTML5 Up
   text-decoration: none;
   transition: background-color 0.2s ease, transform 0.1s ease;
 }
+
 .doi-button:hover {
   background-color: #0e6ed8;
   transform: scale(1.05);
