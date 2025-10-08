@@ -35,21 +35,21 @@ publications_list:
   - author: "**Roth, D.J.**, Bai, N., Biesbroek, R., Dewulf, A., Kruikemeier, S., De Leur, D., van der Velden, M.A.C.G., de Vries, E., & Vliegenthart, R."
     year: 2025
     title: Unveiling Climate Adaptation: A Comprehensive Analysis of Agenda-Setting Dynamics in the United Kingdom and the Netherlands
-    journal: Science Communication
+    journal: "Science Communication"
     link: https://doi.org/10.1177/10755470251376576
     status: published
 
   - author: "Schrijver, L., **Roth, D.J.**, Jans, E.G.M., Vrielink, J., & Guldemond, P."
     year: 2025
     title: Effective Ways of Casting Doubt? Examining the Different Effects of Blatant and Suggestive Disinformation
-    journal: International Journal of Communication
+    journal: "International Journal of Communication"
     link: https://ijoc.org/index.php/ijoc/article/view/23276
     status: published
 
   - author: "Van der Velden, M., López Ortega, A., **Roth, D.J.**, & Guldemond, P."
   - year: 2025
   - title: Populism and Polarization: A Nostalgic Narrative of ‘Us’ and ‘Them’
-  - journal: Government & Opposition
+  - journal: "Government & Opposition"
   - status: accepted
 
   - author: "**Roth, D.J.**, Schäfer, S., Kruikemeier, S., & Vliegenthart, R."
