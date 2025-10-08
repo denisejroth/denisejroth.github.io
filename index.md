@@ -55,19 +55,3 @@ I studied **Political Science** at the University of Mannheim, where I developed
 My current research looks at how science becomes politicized in public debate—especially how actors use **scientific uncertainty** to cast doubt, shape narratives, or influence public trust. I'm particularly interested in topics like **health misinformation**, **populist communication**, and **polarization**. Methodologically, I work with **computational text analysis**, surveys, and experiments.
 
 Outside of academia, I enjoy **bird watching** (yes, really), experimenting with **vegan recipes** that don’t always work out, and **lifting heavy things** at the gym to balance all the time I spend thinking about misinformation, democratic erosion and hate speech.
-
----
-
-### Curriculum Vitae 
-
-You can download my full CV here:
-
-[Download PDF](CV_DJRoth.pdf)
-
-
-### Highlights
-
-- **Position**: PhD Candidate, [Strategic Communication Group](https://www.wur.nl/en/Research-Results/Chair-groups/Social-Sciences/Strategic-Communication-Group.htm), [Wageningen University & Research](https://www.wur.nl/en.htm)
-- **Research Areas**: Politicization of science, health misinformation, populist communication 
-- **Methods**: Computational text analysis, surveys, experiments, mixed methods 
-- **Teaching**: Data Types for Health Promotion, Introduction to Text Analysis in R
