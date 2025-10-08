@@ -62,6 +62,7 @@
         <ul>
           <li style="text-transform:lowercase"><a href="{{ page.page_url }}/#about">about</a></li>
 		  <li style="text-transform:lowercase"><a href="{{ page.page_url }}/#cv">cv</a></li>
+		<li style="text-transform:lowercase"><a href="{{ page.page_url }}/#publications">publications</a></li>
           {% if page.portfolio %}
           <li style="text-transform:lowercase"><a href="{{ page.page_url }}/#{{ page.portfolio }}">{{ page.portfolio }}</a></li>
           {% endif %}
@@ -136,7 +137,36 @@
   </section>
 {% endif %}
 
-            <!-- section: work-->
+<!-- section: publications -->
+{% if page.publications %}
+<section class="wrapper style3 container special" id="publications">
+  <header class="special">
+    <h2><strong>publications</strong></h2>
+  </header>
+
+  <section class="special container" style="margin-bottom:10em; text-align:center">
+    <div style="padding: 0 1em;">
+      <p>{{ page.publications_intro }}</p>
+
+      <ul class="pub-list">
+        {% for pub in page.publications_list %}
+        <li class="pub-item">
+          <span class="pub-meta">
+            <strong>{{ pub.author }}</strong> ({{ pub.year }}).<br>
+            “{{ pub.title }}.” <em>{{ pub.journal }}</em>.
+          </span>
+          {% if pub.link %}
+          <a href="{{ pub.link }}" target="_blank" class="doi-button">DOI</a>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+</section>
+{% endif %}
+
+            <!-- section: work
             {% if page.portfolio %}
             <section class="wrapper style3 container special" id="{{ page.portfolio }}">
 					      <header class="special">
@@ -168,7 +198,7 @@
             </section>
             {% endif %}
       </article>
-
+-->
         <!-- section: cta -->
         {% if page.cta %}
       <section class="cta" id="{{ page.cta }}" 
