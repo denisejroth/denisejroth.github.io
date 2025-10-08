@@ -210,6 +210,12 @@
             {% if page.linkedin %}
             <li><a href="https://linkedin.com/in/{{ page.linkedin }}" class="icon circle fa-linkedin-square"><span class="label">LinkedIn</span></a></li>
             {% endif %}
+			{% if page.bluesky_username %}
+<li><a href="https://bsky.app/profile/{{ page.bluesky_username }}" class="icon circle" style="background: none; border: none;">
+    <img src="/images/Bluesky_Logo.svg.png" alt="Bluesky" style="width: 32px; height: 32px; border-radius: 50%;">
+  </a>
+</li>
+{% endif %}
         </ul>
 
     <ul class="copyright">
