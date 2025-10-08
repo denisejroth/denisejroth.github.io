@@ -112,6 +112,30 @@
                   </section>
                 {% endif %}      
               </section>    
+			<!-- section: cv -->
+					{% if page.cv %}
+				<section class="wrapper style2 container special" id="cv">
+  <header class="special">
+    <h2><strong>cv</strong></h2>
+  </header>
+
+  <section class="special container" style="margin-bottom:10em">
+    <div style="padding: 0 1em; text-align:center">
+      <p>{{ page.cv_description }}</p>
+    </div>
+
+    {% if page.cv_button %}
+    <section class="wrapper style1 container special">
+      <footer class="major">
+        <ul class="buttons">
+          <li><a href="{{ page.cv_button }}" class="button">{{ page.cv_button_label }}</a></li>
+        </ul>
+      </footer>
+    </section>
+    {% endif %}
+  </section>
+</section>
+{% endif %}
 
             <!-- section: work-->
             {% if page.portfolio %}
