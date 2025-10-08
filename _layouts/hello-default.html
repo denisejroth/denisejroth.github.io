@@ -160,8 +160,10 @@
         ({{ pub.year }}).
       {% endif %}
       <br>
-      “{{ pub.title }}.” <em>{{ pub.journal }}</em>.
-
+      “{{ pub.title }}.”
+      {% if pub.journal %}
+        <em>{{ pub.journal }}</em>.
+      {% endif %}
       {% if pub.status == "wip" %}
         <span class="status-tag wip">Work in Progress</span>
       {% elsif pub.status == "under_review" %}
