@@ -1067,3 +1067,33 @@ custom styles adapted from Twenty by HTML5 Up
   transform: scale(1.05);
   text-decoration: none;
 }
+
+/* === Social icon images (normalize size + align) === */
+#footer .icons li a.icon {
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #333;              /* same “circle” look as FA */
+  transition: background .2s ease, transform .1s ease;
+  text-decoration: none;
+}
+
+#footer .icons li a.icon:hover {
+  background: #555;
+  transform: translateY(-1px);
+}
+
+/* Make all logo images the same size, centered */
+#footer .icons li a.icon img {
+  width: 22px;                   /* adjust to 24px if you want a touch larger */
+  height: 22px;
+  display: block;
+}
+
+/* Optional: if any PNG has uneven padding, auto-fit it nicely */
+#footer .icons li a.icon img {
+  object-fit: contain;
+}
