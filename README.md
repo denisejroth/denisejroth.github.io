@@ -1,14 +1,15 @@
-# Personal Website — Denise J. Roth
+# Personal Website — Denise J. Roth  
+👉 [Visit the website here](https://denisejroth.github.io)
 
 Welcome to my personal academic website, built using GitHub Pages.  
 It provides an overview of my research, publications, teaching, and ongoing projects in **political communication**, **science and media**, and **computational methods**.
 
 You can find:
-- A short biography and CV (with download link)  
+- A short biography and downloadable CV  
 - My current and forthcoming research output  
 - Links to external profiles such as ORCID, GitHub, and Bluesky  
 
-If you notice any issues, broken links, or accessibility problems, please open an issue in this repository — I appreciate your feedback.  
+If you notice any issues, broken links, or accessibility problems, please [open an issue](https://github.com/denisejroth/denisejroth.github.io/issues) in this repository — I appreciate your feedback.  
 A **mobile-friendly update** with improved layout and navigation will follow soon!
 
 ---
@@ -29,3 +30,5 @@ The *hello* theme was designed to make GitHub Pages accessible for everyone — 
 - Demo and theme images originate from [Unsplash](https://unsplash.com/).
 
 ---
+
+📍 **Repository:** [denisejroth.github.io](https://github.com/denisejroth/denisejroth.github.io)
