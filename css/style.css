@@ -1064,3 +1064,10 @@ custom styles adapted from Twenty by HTML5 Up
   margin-left: -2em;    /* shift the entire research content left */
   max-width: 850px;     /* slightly expand width to balance */
 }
+
+.pub-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 2em 0 0 0;
+  text-align: left;
+}
