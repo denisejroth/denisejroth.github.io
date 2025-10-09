@@ -1075,40 +1075,31 @@ custom styles adapted from Twenty by HTML5 Up
   content: none !important;
 }
 
-/* === Footer social icon images: larger, clean, no dark background === */
-
-/* === Footer social icon images: bigger, clean, balanced === */
-
-/* Icon container (clickable circle area) */
+/* === FINAL OVERRIDE: Bigger footer logos, no dark background === */
 #footer .icons li a.icon {
-  width: 60px;               /* was 52px → larger hit area */
-  height: 60px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;        /* keeps even spacing */
-  background: transparent;   /* no background */
-  line-height: 1;
-  font-size: 1rem;
-  text-decoration: none;
-  transition: transform .1s ease;
+  width: 68px !important;       /* container size ↑ */
+  height: 68px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 50% !important;
+  background: transparent !important;  /* no dark bg */
+  line-height: 1 !important;
+  text-decoration: none !important;
+  transition: transform .1s ease !important;
 }
 
-/* Slight motion on hover */
 #footer .icons li a.icon:hover {
-  transform: translateY(-2px) scale(1.06);
+  transform: translateY(-2px) scale(1.08) !important;
 }
 
-/* Logo sizing and alignment */
 #footer .icons li a.icon img {
-  width: 34px;               /* was 28px → more prominent */
-  height: 34px;
-  display: block;
-  object-fit: contain;
-  filter: none;
+  width: 40px !important;       /* image size ↑ */
+  height: 40px !important;
+  display: block !important;
+  object-fit: contain !important;
 }
 
-/* Remove any leftover FA color or bg */
 #footer .icons li a.icon[class*="fa-"] {
   background: transparent !important;
   color: inherit !important;
