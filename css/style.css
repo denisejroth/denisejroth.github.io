@@ -992,23 +992,31 @@ custom styles adapted from Twenty by HTML5 Up
 			width: 5em;
 		}
 
-/* ===== Research Section ===== */
-.pub-list {
-  list-style: none;
-  padding-left: 0;      /* removes internal indentation */
-  margin: 2em auto 0;
-  max-width: 800px;
-  text-align: left;
+/* ===== RESEARCH SECTION (Final Clean Version) ===== */
+
+/* Container alignment — matches 'about' section */
+#research .special.container {
+  max-width: 700px;        /* same readable width as about */
+  margin: 0 auto;          /* center horizontally */
+  text-align: left;        /* keep publications left-aligned */
 }
 
-.pub-item {
-  margin: 0 0 1.2em 0;
+/* Research list styling */
+#research .pub-list {
+  list-style: none;         /* remove bullets */
+  padding-left: 0;          /* no extra indent */
+  margin: 2em 0 0 0;        /* spacing above list */
+}
+
+/* Each publication item */
+#research .pub-item {
+  margin-bottom: 1em;
   line-height: 1.6;
 }
 
-.pub-meta em {
+#research .pub-meta em {
   font-style: italic;
-  color: #444; /* subtle gray to separate from title */
+  color: #444;              /* subtle gray for journals */
 }
 
 /* Status tags */
@@ -1038,7 +1046,7 @@ custom styles adapted from Twenty by HTML5 Up
   color: #fff;
 }
 
-/* DOI button (inline with tags) */
+/* DOI pill button (inline with tags) */
 .doi-button {
   display: inline-block;
   background-color: #1185fe; /* blue */
@@ -1058,16 +1066,4 @@ custom styles adapted from Twenty by HTML5 Up
   background-color: #0e6ed8;
   transform: scale(1.05);
   text-decoration: none;
-}
-
-#research .special.container {
-  margin-left: -2em;    /* shift the entire research content left */
-  max-width: 850px;     /* slightly expand width to balance */
-}
-
-.pub-list {
-  list-style: none;
-  padding-left: 0;
-  margin: 2em 0 0 0;
-  text-align: left;
 }
