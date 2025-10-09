@@ -77,7 +77,7 @@ research_list:
     journal: "Manuscript in preparation"
     status: wip
 
-  - author: "<strong>D. J. Roth</strong>, Van der Velden, M., & Damstra, A."
+  - author: "<strong>D. J. Roth</strong>, van der Velden, M.A.C.G., & Damstra, A."
     title: "The Scientization of Politics: How Politicians Use Science Instrumentally to Depoliticize Conflict"
     journal: "Manuscript in preparation"
     status: wip
