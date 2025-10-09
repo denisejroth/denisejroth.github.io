@@ -1,0 +1,40 @@
+/* Bigger footer logos, no dark bg — loaded LAST, high specificity */
+
+/* Kill FA pseudo icon */
+footer#footer ul.icons li a.icon:before {
+  content: none !important;
+}
+
+/* Container size (click target) */
+footer#footer ul.icons li a.icon {
+  width: 68px !important;
+  height: 68px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 50% !important;
+  background: transparent !important;
+  line-height: 1 !important;
+  text-decoration: none !important;
+  transition: transform .1s ease !important;
+}
+
+footer#footer ul.icons li a.icon:hover {
+  transform: translateY(-2px) scale(1.08) !important;
+}
+
+/* Logo itself — override any global img rules */
+footer#footer ul.icons li a.icon > img {
+  width: 40px !important;
+  height: 40px !important;
+  max-width: none !important;   /* beats img { max-width:100% } */
+  max-height: none !important;
+  display: block !important;
+  object-fit: contain !important;
+}
+
+/* If any old fa-* classes linger, neutralize coloring */
+footer#footer ul.icons li a.icon[class*="fa-"] {
+  background: transparent !important;
+  color: inherit !important;
+}
