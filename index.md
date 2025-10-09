@@ -102,7 +102,17 @@ cta_button_label: contact # the label on the button
 ---			
 [//]: # (write a bit about yourself here)
 ### Who am I and why do I have a website?  
-I'm a PhD Candidate in Political Communication at the [Strategic Communication Group](https://www.wur.nl/en/Research-Results/Chair-groups/Social-Sciences/Strategic-Communication-Group.htm) at [Wageningen University & Research](https://www.wur.nl/en.htm) with a research focus on the intersection of science, media, and politics.
+I'm a PhD Candidate in Political Communication at the 
+<a href="https://www.wur.nl/en/Research-Results/Chair-groups/Social-Sciences/Strategic-Communication-Group.htm"
+   target="_blank" rel="noopener noreferrer">
+   Strategic Communication Group
+</a> 
+at 
+<a href="https://www.wur.nl/en.htm"
+   target="_blank" rel="noopener noreferrer">
+   Wageningen University &amp; Research
+</a>
+with a research focus on the intersection of science, media, and politics.
 
 I studied **Political Science** at the University of Mannheim, where I developed a strong interest in political systems and public discourse. I then completed a **Research Master's in the Social Sciences** at **Vrije Universiteit Amsterdam**, with a specialization in **Political Communication**. The interdisciplinary setup of the program allowed me to combine perspectives from media studies, political science, and sociology.
 
