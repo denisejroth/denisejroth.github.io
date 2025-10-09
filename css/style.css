@@ -1075,36 +1075,39 @@ custom styles adapted from Twenty by HTML5 Up
   content: none !important;
 }
 
-/* Ensure the anchor behaves like a circle container for our <img> */
+/* === Footer social icon images: larger, clean, no dark background === */
+
+/* Make each link act as a container for the logo */
 #footer .icons li a.icon {
-  width: 44px;
-  height: 44px;
+  width: 52px;               /* was 44px → slightly larger */
+  height: 52px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
-  background: #333;                      /* circle bg */
-  line-height: 1;                        /* don’t inherit 2.25em FA line-height */
-  font-size: 1rem;                       /* ignore FA scaling */
+  border-radius: 50%;        /* still circular for spacing symmetry */
+  background: transparent;   /* no black background */
+  line-height: 1;            /* reset Font Awesome line height */
+  font-size: 1rem;           /* ignore FA scaling */
   text-decoration: none;
-  transition: background .2s ease, transform .1s ease;
+  transition: transform .1s ease;
 }
 
+/* Slight hover lift, no background color change */
 #footer .icons li a.icon:hover {
-  background: #555;
-  transform: translateY(-1px);
+  transform: translateY(-2px) scale(1.05);
 }
 
-/* Normalize image size/alignment inside the circle */
+/* Normalize image size and alignment */
 #footer .icons li a.icon img {
-  width: 22px;
-  height: 22px;
+  width: 28px;               /* was 22px → make logos visibly larger */
+  height: 28px;
   display: block;
-  object-fit: contain;
+  object-fit: contain;       /* prevents distortion */
+  filter: none;              /* ensures no accidental darkening */
 }
 
-/* If any old fa-* color classes are still present, neutralize them */
+/* In case any old fa-* classes remain, remove their styles */
 #footer .icons li a.icon[class*="fa-"] {
-  background: #333 !important;
+  background: transparent !important;
   color: inherit !important;
 }
