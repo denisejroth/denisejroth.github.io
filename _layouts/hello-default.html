@@ -129,7 +129,14 @@
     <section class="wrapper style1 container special">
       <footer class="major">
         <ul class="buttons">
-          <li><a href="{{ page.cv_button }}" class="button">{{ page.cv_button_label }}</a></li>
+          <li>
+  <a href="{{ page.cv_button }}" 
+     class="button" 
+     target="_blank" 
+     rel="noopener noreferrer">
+     {{ page.cv_button_label }}
+  </a>
+</li>
         </ul>
       </footer>
     </section>
@@ -252,7 +259,11 @@
    <ul class="icons">
   {% if page.github_username %}
   <li>
-    <a href="https://github.com/{{ page.github_username }}" class="icon circle" aria-label="GitHub">
+    <a href="https://github.com/{{ page.github_username }}" 
+       class="icon circle" 
+       aria-label="GitHub"
+       target="_blank" 
+       rel="noopener noreferrer">
       <img src="/images/github.svg" alt="GitHub" />
     </a>
   </li>
@@ -260,7 +271,11 @@
 
   {% if page.linkedin %}
   <li>
-    <a href="https://linkedin.com/in/{{ page.linkedin }}" class="icon circle" aria-label="LinkedIn">
+    <a href="https://linkedin.com/in/{{ page.linkedin }}" 
+       class="icon circle" 
+       aria-label="LinkedIn"
+       target="_blank" 
+       rel="noopener noreferrer">
       <img src="/images/LI.png" alt="LinkedIn" />
     </a>
   </li>
@@ -268,7 +283,11 @@
 
   {% if page.orcid %}
   <li>
-    <a href="https://orcid.org/{{ page.orcid }}" class="icon circle" aria-label="ORCID">
+    <a href="https://orcid.org/{{ page.orcid }}" 
+       class="icon circle" 
+       aria-label="ORCID"
+       target="_blank" 
+       rel="noopener noreferrer">
       <img src="/images/ORCID.svg" alt="ORCID iD" />
     </a>
   </li>
@@ -276,7 +295,11 @@
 
   {% if page.bluesky_username %}
   <li>
-    <a href="https://bsky.app/profile/{{ page.bluesky_username }}" class="icon circle" aria-label="Bluesky">
+    <a href="https://bsky.app/profile/{{ page.bluesky_username }}" 
+       class="icon circle" 
+       aria-label="Bluesky"
+       target="_blank" 
+       rel="noopener noreferrer">
       <img src="/images/Bluesky_Logo.svg.png" alt="Bluesky" />
     </a>
   </li>
