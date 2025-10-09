@@ -144,11 +144,11 @@
     <h2><strong>research</strong></h2>
   </header>
 
-  <section class="special container" id="research-container" style="margin-bottom:10em">
+  <section class="special container" style="margin-bottom:10em">
     <div style="padding: 0 1em; max-width: 700px; margin: 0 auto; text-align: left;">
 
       {% if page.research_intro %}
-        <p style="text-align: center;">{{ page.research_intro }}</p>
+        <p style="text-align:center; margin-bottom:2em;">{{ page.research_intro }}</p>
       {% endif %}
 
       <ul class="pub-list">
@@ -161,9 +161,14 @@
               {% endif %}
               <br>
               “{{ pub.title }}.”
-              {% if pub.journal %}
+
+              {%- comment -%}
+              Only show journal if published or accepted
+              {%- endcomment -%}
+              {% if pub.journal and (pub.status == "accepted" or pub.status == "published") %}
                 <em>{{ pub.journal }}</em>.
               {% endif %}
+
               {% if pub.status == "wip" %}
                 <span class="status-tag wip">Work in Progress</span>
               {% elsif pub.status == "under_review" %}
@@ -177,9 +182,11 @@
           </li>
         {% endfor %}
       </ul>
+
     </div>
   </section>
 </section>
+{% endif %}
 
             <!-- section: work
             {% if page.portfolio %}
