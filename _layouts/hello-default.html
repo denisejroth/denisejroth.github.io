@@ -249,8 +249,7 @@
     <!-- Footer -->
     <footer id="footer">
 
-        <ul class="icons">
-  {#--- GitHub ---#}
+   <ul class="icons">
   {% if page.github_username %}
   <li>
     <a href="https://github.com/{{ page.github_username }}" class="icon circle" aria-label="GitHub">
@@ -259,7 +258,6 @@
   </li>
   {% endif %}
 
-  {#--- LinkedIn ---#}
   {% if page.linkedin %}
   <li>
     <a href="https://linkedin.com/in/{{ page.linkedin }}" class="icon circle" aria-label="LinkedIn">
@@ -268,7 +266,6 @@
   </li>
   {% endif %}
 
-  {#--- ORCID ---#}
   {% if page.orcid %}
   <li>
     <a href="https://orcid.org/{{ page.orcid }}" class="icon circle" aria-label="ORCID">
@@ -277,7 +274,6 @@
   </li>
   {% endif %}
 
-  {#--- Bluesky (convert to same style) ---#}
   {% if page.bluesky_username %}
   <li>
     <a href="https://bsky.app/profile/{{ page.bluesky_username }}" class="icon circle" aria-label="Bluesky">
