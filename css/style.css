@@ -1068,7 +1068,14 @@ custom styles adapted from Twenty by HTML5 Up
   text-decoration: none;
 }
 
-/* === Social icon images (normalize size + align) === */
+/* === Overrides to neutralize Font Awesome icon styles (for image logos) === */
+
+/* We use inline images, not FA pseudo-elements */
+#footer .icons li a.icon:before {
+  content: none !important;
+}
+
+/* Ensure the anchor behaves like a circle container for our <img> */
 #footer .icons li a.icon {
   width: 44px;
   height: 44px;
@@ -1076,9 +1083,11 @@ custom styles adapted from Twenty by HTML5 Up
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background: #333;              /* same “circle” look as FA */
-  transition: background .2s ease, transform .1s ease;
+  background: #333;                      /* circle bg */
+  line-height: 1;                        /* don’t inherit 2.25em FA line-height */
+  font-size: 1rem;                       /* ignore FA scaling */
   text-decoration: none;
+  transition: background .2s ease, transform .1s ease;
 }
 
 #footer .icons li a.icon:hover {
@@ -1086,14 +1095,16 @@ custom styles adapted from Twenty by HTML5 Up
   transform: translateY(-1px);
 }
 
-/* Make all logo images the same size, centered */
+/* Normalize image size/alignment inside the circle */
 #footer .icons li a.icon img {
-  width: 22px;                   /* adjust to 24px if you want a touch larger */
+  width: 22px;
   height: 22px;
   display: block;
+  object-fit: contain;
 }
 
-/* Optional: if any PNG has uneven padding, auto-fit it nicely */
-#footer .icons li a.icon img {
-  object-fit: contain;
+/* If any old fa-* color classes are still present, neutralize them */
+#footer .icons li a.icon[class*="fa-"] {
+  background: #333 !important;
+  color: inherit !important;
 }
