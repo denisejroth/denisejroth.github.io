@@ -1,94 +1,31 @@
-# hello: a minimalist template for personal websites on Github Pages
+# Personal Website — Denise J. Roth
 
-## Why **hello**?  
-  
-**hello** has a simple goal: to make GitHub Pages accessible to everyone.  
-  
+Welcome to my personal academic website, built using GitHub Pages.  
+It provides an overview of my research, publications, teaching, and ongoing projects in **political communication**, **science and media**, and **computational methods**.
 
-**hello** is a minimalist template that lets you design a beautiful website or portfolio on GitHub Pages - without installing a Ruby
-development environment, learning to use Jekyll, **or even typing a single line of code**. It's ideal for GitHubbers
-who want to start building their personal website on [GitHub Pages](https://pages.github.com/), but maybe aren't so familiar with web development.
-  
+You can find:
+- A short biography and CV (with download link)  
+- My current and forthcoming research output  
+- Links to external profiles such as ORCID, GitHub, and Bluesky  
 
-The default layout of **hello** is a streamlined single page with three major customizable sections: a required "about" section, an optional portfolio, and an optional CTA. Using [Liquid](https://shopify.github.io/liquid/) variables declared by in the config and index files, **hello** offers an easy-to-use design where all customizations necessary for a basic personal website can be written in [Markdown](https://www.markdownguide.org/basic-syntax/). **hello** is adapted from [Twenty](https://html5up.net/twenty), a responsive, mobile-friendly theme by HTML5 Up.  
+If you notice any issues, broken links, or accessibility problems, please open an issue in this repository — I appreciate your feedback.  
+A **mobile-friendly update** with improved layout and navigation will follow soon!
 
+---
 
-Demo **hello** [here](https://saragong.github.io/hello/).
+## Acknowledgements & Theme Credits  
 
-## Getting started
-To use **hello**, follow these steps:
+This site is adapted from **[hello](https://github.com/saragong/hello)**, a minimalist template for personal websites on GitHub Pages, originally created by **[Sara Gong](https://saragong.github.io/)** at the University of Southern California.  
+The *hello* theme was designed to make GitHub Pages accessible for everyone — no Ruby environment, Jekyll setup, or coding experience required — and provides a simple single-page layout with customizable “about,” “portfolio,” and “call-to-action” sections.
 
-1. Click the green "Use this template" button on the main page of the **hello** repository.
+**hello** itself is adapted from **[Twenty](https://html5up.net/twenty)**, a responsive theme by **HTML5 Up**, and uses clean Liquid and Markdown-based customization.
 
-2. Follow the instructions to create a new repository from **hello**, setting the repository name as "*your-username*.github.io".
+---
 
-3. Under **Settings** for this new repo, navigate to the **GitHub Pages** section and ensure that GitHub Pages is enabled for the `master` branch.
+## License Information  
 
-4. On the command line, clone this new repository to your local directory.
+- **hello** by Sara Gong — released under the [MIT License](https://opensource.org/licenses/MIT), allowing free use, modification, and redistribution provided copyright notices and license terms are preserved.  
+- **Twenty** by HTML5 Up — released under the [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/).  
+- Demo and theme images originate from [Unsplash](https://unsplash.com/).
 
-```
-$ git clone https://github.com/*your-username*/*your-username*.github.io.git
-```
-
-5. Navigate into the project folder, open the `_config.yml` and `index.md` files in your preferred text editor, and start customizing your website!
-
-6. When you're ready to see your work, commit your changes to the remote repo.
-```
-$ git add .
-$ git commit -m "first commit"
-$ git push origin master
-```
-
-7. In just a few moments, Github will build your shiny new website at "https://*your-username*.github.io/".
-
-## Usage
-
-### The following variables are required:
-
-`_config.yml`:
-* `title`
-* `author`
-* `description`
-* `baseurl`  
-
-`index.md`:
-* `banner_title`
-* `banner_subtitle`
-* `background_image`
-
-### The following variables are optional:
-`index.md`:
-* `favicon`
-* `facebook_username`
-* `twitter_username`
-* `github_username`
-* `linkedin`
-* `google_analytics` (your Google Analytics Tracking ID)
-
-By declaring these variables, you can include a button that links to an external website or to media.
-* `about_button` (the link)
-* `about_button_label` (the label on the button)
-
-By declaring these variables, you can include a portfolio showcasing your work and organize your portfolio's items into a custom layout, all without adding any CSS. In addition, you must 1) create an HTML file in the_includes folder for each project with the text you'd like to display, and 2) create a YAML file in the _data folder describing how each project should be shown and categorized. See `/includes/example.html` and `/_data/work.yml` for examples.
-* `portfolio` (the heading for your portfolio and title of your YAML file)
-* `portfolio_description` (a description to be displayed below the heading and above the content)
-
-By declaring these variables, you can include a CTA section.
-* `cta` (the heading for your CTA section)
-* `cta_description` (a description to be displayed below the heading and above the content)
-* `cta_button` (a link to an external website or to media)
-* `cta_button_label` (the label on the button)
-
-## Additional Information
-Created by [Sara Gong](https://saragong.github.io/), University of Southern California.  
-
-This work is licensed under the MIT License, which lets you use, modify, and publish adaptations of this template free of charge and without restriction, as long as you preserve all copyright notices and licenses.  
-
-This original theme, of which this is an adaptation, is licensed by HTML5 Up under the [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/).  
-
-The images from the demo website are from [Unsplash](https://unsplash.com/).
-
-## Theme Information
-Twenty by HTML5 UP  
-html5up.net | @n33co  
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+---
