@@ -38,3 +38,54 @@ footer#footer ul.icons li a.icon[class*="fa-"] {
   background: transparent !important;
   color: inherit !important;
 }
+
+
+/* =========================
+   MOBILE FIX KIT (<= 740px)
+   ========================= */
+@media (max-width: 740px) {
+  #banner {
+    background-attachment: scroll !important;
+    background-position: center center !important;
+    background-size: cover !important;
+  }
+  #banner .inner h2 {
+    font-size: 2rem !important;
+  }
+  #banner .inner p {
+    font-size: 1rem !important;
+  }
+
+  .special.container,
+  .wrapper.style3.container.special,
+  #research .special.container {
+    max-width: 92vw !important;
+    margin: 0 auto !important;
+    padding: 0 4vw !important;
+  }
+
+  #nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 0.75rem;
+    justify-content: center;
+  }
+
+  #footer .icons li a.icon {
+    width: 64px !important;
+    height: 64px !important;
+  }
+
+  #footer .icons li a.icon img {
+    width: 36px !important;
+    height: 36px !important;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
+
