@@ -1077,36 +1077,38 @@ custom styles adapted from Twenty by HTML5 Up
 
 /* === Footer social icon images: larger, clean, no dark background === */
 
-/* Make each link act as a container for the logo */
+/* === Footer social icon images: bigger, clean, balanced === */
+
+/* Icon container (clickable circle area) */
 #footer .icons li a.icon {
-  width: 52px;               /* was 44px → slightly larger */
-  height: 52px;
+  width: 60px;               /* was 52px → larger hit area */
+  height: 60px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;        /* still circular for spacing symmetry */
-  background: transparent;   /* no black background */
-  line-height: 1;            /* reset Font Awesome line height */
-  font-size: 1rem;           /* ignore FA scaling */
+  border-radius: 50%;        /* keeps even spacing */
+  background: transparent;   /* no background */
+  line-height: 1;
+  font-size: 1rem;
   text-decoration: none;
   transition: transform .1s ease;
 }
 
-/* Slight hover lift, no background color change */
+/* Slight motion on hover */
 #footer .icons li a.icon:hover {
-  transform: translateY(-2px) scale(1.05);
+  transform: translateY(-2px) scale(1.06);
 }
 
-/* Normalize image size and alignment */
+/* Logo sizing and alignment */
 #footer .icons li a.icon img {
-  width: 28px;               /* was 22px → make logos visibly larger */
-  height: 28px;
+  width: 34px;               /* was 28px → more prominent */
+  height: 34px;
   display: block;
-  object-fit: contain;       /* prevents distortion */
-  filter: none;              /* ensures no accidental darkening */
+  object-fit: contain;
+  filter: none;
 }
 
-/* In case any old fa-* classes remain, remove their styles */
+/* Remove any leftover FA color or bg */
 #footer .icons li a.icon[class*="fa-"] {
   background: transparent !important;
   color: inherit !important;
