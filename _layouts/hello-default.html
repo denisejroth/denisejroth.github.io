@@ -250,27 +250,42 @@
     <footer id="footer">
 
         <ul class="icons">
-            {% if page.twitter_username %}
-            <li><a href="https://twitter.com/{{ page.twitter_username }}" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
-            {% endif %}
-            {% if page.facebook_username %}
-            <li><a href="https://www.facebook.com/{{ page.facebook_username }}" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
-            {% endif %}
-            {% if page.github_username %}
-            <li><a href="https://github.com/{{ page.github_username }}" class="icon circle fa-github"><span class="label">Github</span></a></li>
-            {% endif %}
-            {% if page.linkedin %}
-            <li><a href="https://linkedin.com/in/{{ page.linkedin }}" class="icon circle fa-linkedin-square"><span class="label">LinkedIn</span></a></li>
-            {% endif %}
-			{% if page.bluesky_username %}
-<li><a href="https://bsky.app/profile/{{ page.bluesky_username }}" class="icon circle" style="background: none; border: none;">
-  <img src="/images/Bluesky_Logo.svg.png" alt="Bluesky"
-     style="width: 38px; height: 38px; border-radius: 50%;
-            vertical-align: middle; margin-top: -2px;">
-  </a>
-</li>
-{% endif %}
-        </ul>
+  {#--- GitHub ---#}
+  {% if page.github_username %}
+  <li>
+    <a href="https://github.com/{{ page.github_username }}" class="icon circle" aria-label="GitHub">
+      <img src="/images/github.svg" alt="GitHub" />
+    </a>
+  </li>
+  {% endif %}
+
+  {#--- LinkedIn ---#}
+  {% if page.linkedin %}
+  <li>
+    <a href="https://linkedin.com/in/{{ page.linkedin }}" class="icon circle" aria-label="LinkedIn">
+      <img src="/images/LI.png" alt="LinkedIn" />
+    </a>
+  </li>
+  {% endif %}
+
+  {#--- ORCID ---#}
+  {% if page.orcid %}
+  <li>
+    <a href="https://orcid.org/{{ page.orcid }}" class="icon circle" aria-label="ORCID">
+      <img src="/images/ORCID.svg" alt="ORCID iD" />
+    </a>
+  </li>
+  {% endif %}
+
+  {#--- Bluesky (convert to same style) ---#}
+  {% if page.bluesky_username %}
+  <li>
+    <a href="https://bsky.app/profile/{{ page.bluesky_username }}" class="icon circle" aria-label="Bluesky">
+      <img src="/images/Bluesky_Logo.svg.png" alt="Bluesky" />
+    </a>
+  </li>
+  {% endif %}
+</ul>
 
     <ul class="copyright">
         <li>this website is maintained by {{ site.author}}</li>
