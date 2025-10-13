@@ -55,7 +55,8 @@ research_list:
     year: 2025
     title: "Populism and Polarization: A Nostalgic Narrative of ‘Us’ and ‘Them’"
     journal: Government & Opposition
-    status: accepted
+    link: cup.org/4n09poM
+    status: published
 
   - author: "<strong>D. J. Roth</strong>, Schäfer, S., Kruikemeier, S., & Vliegenthart, R."
     title: "Public Attitudes Toward Science and Politics: Understanding Public Perceptions in 16 European Countries"
@@ -118,4 +119,4 @@ I studied **Political Science** at the University of Mannheim, where I developed
 
 My current research looks at how science becomes politicized in public debate—especially how actors use **scientific uncertainty** to cast doubt, shape narratives, or influence public trust. I'm particularly interested in topics like **health misinformation**, **populist communication**, and **polarization**. Methodologically, I work with **computational text analysis**, surveys, and experiments.
 
-Outside of academia, I enjoy **bird watching** (yes, really), experimenting with **vegan recipes** that don’t always work out, and **lifting heavy things** at the gym to balance all the time I spend thinking about misinformation, democratic erosion and hate speech.
+Outside of academia, I enjoy **bird watching** (yes, really), experimenting with **vegan recipes** that don’t always work out, and **lifting heavy things** at the gym to balance all the time I spend thinking about misinformation, democratic erosion, and hate speech.
