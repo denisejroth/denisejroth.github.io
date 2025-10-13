@@ -55,7 +55,7 @@ research_list:
     year: 2025
     title: "Populism and Polarization: A Nostalgic Narrative of ‘Us’ and ‘Them’"
     journal: Government & Opposition
-    link: cup.org/4n09poM
+    link: https://doi:10.1017/gov.2025.10020
     status: published
 
   - author: "<strong>D. J. Roth</strong>, Schäfer, S., Kruikemeier, S., & Vliegenthart, R."
