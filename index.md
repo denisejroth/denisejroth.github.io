@@ -115,7 +115,7 @@ at
 </a>
 with a research focus on the intersection of science, media, and politics.
 
-I studied **Political Science** at the University of Mannheim, where I developed a strong interest in political systems and public discourse. I then completed a **Research Master's in the Social Sciences** at **Vrije Universiteit Amsterdam**, with a specialization in **Political Communication**. The interdisciplinary setup of the program allowed me to combine perspectives from media studies, political science, and sociology.
+I studied **Political Science** at the University of Mannheim, where I developed a strong interest in political systems and public discourse. I then completed a **Research Master's degree in the Social Sciences** at **Vrije Universiteit Amsterdam**, with a specialization in **Political Communication**. The interdisciplinary setup of the program allowed me to combine perspectives from media studies, political science, and sociology.
 
 My current research looks at how science becomes politicized in public debate—especially how actors use **scientific uncertainty** to cast doubt, shape narratives, or influence public trust. I'm particularly interested in topics like **health misinformation**, **populist communication**, and **polarization**. Methodologically, I work with **computational text analysis**, surveys, and experiments.
 
