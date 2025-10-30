@@ -12,7 +12,7 @@ background_image: /images/back.png
 # page_url: /hello # only include this variable if you aren't building the page to your primary domain 
 
 # favicon
-favicon: /assets/ico/DJR_icon.ico
+favicon: /assets/ico/DJR_icon2.ico
 
 # social media
 # twitter_username: notsaragong # # your twitter handle
