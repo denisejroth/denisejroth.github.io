@@ -37,48 +37,48 @@ research: true
 research_intro: "Current projects, accepted papers, and published work."
 
 research_list:
-  - author: "<strong>D. J. Roth</strong>, Bai, N., Biesbroek, R., Dewulf, A., Kruikemeier, S., De Leur, D., van der Velden, M. A. C. G., de Vries, E., & Vliegenthart, R."
+  - author: "<strong>Roth, D.J.</strong>, Bai, N., Biesbroek, R., Dewulf, A., Kruikemeier, S., De Leur, D., van der Velden, M.A.C.G., de Vries, E., & Vliegenthart, R."
     year: 2025
     title: "Unveiling Climate Adaptation: A Comprehensive Analysis of Agenda-Setting Dynamics in the United Kingdom and the Netherlands"
     journal: Science Communication
     link: https://doi.org/10.1177/10755470251376576
     status: published
 
-  - author: "Schrijver, L., <strong>D. J. Roth</strong>, Jans, E. G. M., Vrielink, J., & Guldemond, P."
+  - author: "Schrijver, L., <strong>Roth, D.J.</strong>, Jans, E. G. M., Vrielink, J., & Guldemond, P."
     year: 2025
     title: "Effective Ways of Casting Doubt? Examining the Different Effects of Blatant and Suggestive Disinformation"
     journal: International Journal of Communication
     link: https://ijoc.org/index.php/ijoc/article/view/23276
     status: published
 
-  - author: "Van der Velden, M., López Ortega, A., <strong>D. J. Roth</strong>, & Guldemond, P."
+  - author: "Van der Velden, M.A.C.G., López Ortega, A., <strong>Roth, D.J.</strong>, & Guldemond, P."
     year: 2025
     title: "Populism and Polarization: A Nostalgic Narrative of ‘Us’ and ‘Them’"
     journal: Government & Opposition
     link: https://doi.org/10.1017/gov.2025.10020
     status: published
 
-  - author: "<strong>D. J. Roth</strong>, Schäfer, S., Kruikemeier, S., & Vliegenthart, R."
+  - author: "<strong>Roth, D.J.</strong>, Schäfer, S., Kruikemeier, S., & Vliegenthart, R."
     title: "Public Attitudes Toward Science and Politics: Understanding Public Perceptions in 16 European Countries"
     journal: "Under review"
     status: under_review
 
-  - author: "Schäfer, S., <strong>D. J. Roth</strong>, Mede, N., Kruikemeier, S., & Vliegenthart, R."
+  - author: "Schäfer, S., <strong>Roth, D.J.</strong>, Mede, N., Kruikemeier, S., & Vliegenthart, R."
     title: "Playing it Smart: Can Gamification and Alarmist Framing Improve Public Understanding of Zoonotic Diseases?"
     journal: "Under review"
     status: under_review
 
-  - author: "Van der Velden, M., López Ortega, A., <strong>D. J. Roth</strong>, & Guldemond, P."
+  - author: "Van der Velden, M., López Ortega, A., <strong>Roth, D.J.</strong>, & Guldemond, P."
     title: "Do We All Long for the Past? Investigating Nostalgia as a Persuasive Political Rhetorical Strategy"
     journal: "Under review"
     status: under_review
 
-  - author: "<strong>D. J. Roth</strong>, De Vries, E., Schäfer, S., Kruikemeier, S., & Vliegenthart, R."
+  - author: "<strong>Roth, D.J.</strong>, De Vries, E., Schäfer, S., Kruikemeier, S., & Vliegenthart, R."
     title: "Targeted Hostility: Hateful Communication in YouTube Comments towards Journalists, Politicians, and Scientists"
     journal: "Manuscript in preparation"
     status: wip
 
-  - author: "<strong>D. J. Roth</strong>, van der Velden, M.A.C.G., & Damstra, A."
+  - author: "<strong>Roth, D.J.</strong>, van der Velden, M.A.C.G., & Damstra, A."
     title: "The Scientization of Politics: How Politicians Use Science Instrumentally to Depoliticize Conflict"
     journal: "Manuscript in preparation"
     status: wip
