@@ -39,27 +39,27 @@ research_intro: "Current projects, accepted papers, and published work."
 research_list:
   - author: "<strong>Roth, D.J.</strong>, Bai, N., Biesbroek, R., Dewulf, A., Kruikemeier, S., De Leur, D., van der Velden, M.A.C.G., de Vries, E., & Vliegenthart, R."
     year: 2025
-    title: "Unveiling Climate Adaptation: A Comprehensive Analysis of Agenda-Setting Dynamics in the United Kingdom and the Netherlands"
+    title: "Unveiling Climate Adaptation: A Comprehensive Analysis of Agenda-Setting Dynamics in the United Kingdom and the Netherlands."
     journal: Science Communication
     link: https://doi.org/10.1177/10755470251376576
     status: published
 
   - author: "Schrijver, L., <strong>Roth, D.J.</strong>, Jans, E. G. M., Vrielink, J., & Guldemond, P."
     year: 2025
-    title: "Effective Ways of Casting Doubt? Examining the Different Effects of Blatant and Suggestive Disinformation"
+    title: "Effective Ways of Casting Doubt? Examining the Different Effects of Blatant and Suggestive Disinformation."
     journal: International Journal of Communication
     link: https://ijoc.org/index.php/ijoc/article/view/23276
     status: published
 
   - author: "Van der Velden, M.A.C.G., López Ortega, A., <strong>Roth, D.J.</strong>, & Guldemond, P."
     year: 2025
-    title: "Populism and Polarization: A Nostalgic Narrative of ‘Us’ and ‘Them’"
+    title: "Populism and Polarization: A Nostalgic Narrative of ‘Us’ and ‘Them’."
     journal: Government & Opposition
     link: https://doi.org/10.1017/gov.2025.10020
     status: published
 
   - author: "<strong>Roth, D.J.</strong>, Schäfer, S., Kruikemeier, S., & Vliegenthart, R."
-    title: "Evidence-Informed Policymaking and the Populist Challenge: Public Attitudes Across 16 European Countries"
+    title: "Evidence-Informed Policymaking and the Populist Challenge: Public Attitudes Across 16 European Countries."
     journal: "Under review"
     status: under_review
 
@@ -69,17 +69,22 @@ research_list:
     status: under_review
 
   - author: "Van der Velden, M., López Ortega, A., <strong>Roth, D.J.</strong>, & Guldemond, P."
-    title: "Do We All Long for the Past? Investigating Nostalgia as a Persuasive Political Rhetorical Strategy"
+    title: "Do We All Long for the Past? Investigating Nostalgia as a Persuasive Political Rhetorical Strategy."
     journal: "Under review"
     status: under_review
 
   - author: "<strong>Roth, D.J.</strong>, De Vries, E., Schäfer, S., Kruikemeier, S., & Vliegenthart, R."
-    title: "Targeted Hostility: Hateful Communication in YouTube Comments toward Journalists, Politicians, and Scientists"
+    title: "Targeted Hostility: Hateful Communication in YouTube Comments Toward Journalists, Politicians, and Scientists."
     journal: "Manuscript in preparation"
     status: wip
 
   - author: "<strong>Roth, D.J.</strong>, van der Velden, M.A.C.G., & Damstra, A."
-    title: "The Scientization of Politics: How Politicians Use Science Instrumentally to Depoliticize Conflict"
+    title: "The Scientization of Politics: How Politicians Use Science Instrumentally to Depoliticize Conflict."
+    journal: "Manuscript in preparation"
+    status: wip
+
+  - author: "<strong>Roth, D.J.</strong>, & Shugars, S."
+    title: "“Health Communication in Black-Oriented Media: A Computational Text Analysis of YouTube."
     journal: "Manuscript in preparation"
     status: wip
 
