@@ -59,7 +59,7 @@ research_list:
     status: published
 
   - author: "<strong>Roth, D.J.</strong>, Schäfer, S., Kruikemeier, S., & Vliegenthart, R."
-    title: "Public Attitudes Toward Science and Politics: Understanding Public Perceptions in 16 European Countries"
+    title: "Evidence-Informed Policymaking and the Populist Challenge: Public Attitudes Across 16 European Countries"
     journal: "Under review"
     status: under_review
 
@@ -74,7 +74,7 @@ research_list:
     status: under_review
 
   - author: "<strong>Roth, D.J.</strong>, De Vries, E., Schäfer, S., Kruikemeier, S., & Vliegenthart, R."
-    title: "Targeted Hostility: Hateful Communication in YouTube Comments towards Journalists, Politicians, and Scientists"
+    title: "Targeted Hostility: Hateful Communication in YouTube Comments toward Journalists, Politicians, and Scientists"
     journal: "Manuscript in preparation"
     status: wip
 
