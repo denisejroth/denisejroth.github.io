@@ -108,7 +108,7 @@ cta_button_label: contact # the label on the button
 ---
 <img src="/images/profile.jpg" 
      alt="Denise J. Roth" 
-     style="float: right; margin: 0 0 1em 2em; width: 180px; border-radius: 50%;">
+     style="display: block; margin: 0 auto 1.5em auto; width: 250px; border-radius: 50%;">
 
 [//]: # (write a bit about yourself here)
 ### Who am I and why do I have a website?  
