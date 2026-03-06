@@ -105,7 +105,11 @@ cta_description: Please reach out if you have questions or would like to talk ab
 cta_button: mailto:denise.roth@wur.nl # a link to an external website or to media
 cta_button_label: contact # the label on the button
 
----			
+---
+<img src="/images/profile.jpg" 
+     alt="Denise J. Roth" 
+     style="float: right; margin: 0 0 1em 2em; width: 180px; border-radius: 50%;">
+
 [//]: # (write a bit about yourself here)
 ### Who am I and why do I have a website?  
 I'm a PhD Candidate in Political Communication at the 
