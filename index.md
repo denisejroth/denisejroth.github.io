@@ -29,7 +29,7 @@ orcid: 0009-0005-6951-2930
 
 cv: true
 cv_description: You can view or download my full curriculum vitae here.
-cv_button: /assets/CV_DJRoth.pdf
+cv_button: /assets/Academic_CV.pdf
 cv_button_label: Download CV
 
 # Research section (was "publications")
