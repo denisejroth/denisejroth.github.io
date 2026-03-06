@@ -108,12 +108,12 @@ cta_button_label: contact # the label on the button
 ---
 <img src="/images/profile.jpg" 
      alt="Denise J. Roth" 
-     style="display: block; margin: 0 auto 1.5em auto; width: 250px; border-radius: 50%;">
+     style="display: block; margin: 0 auto 1.5em auto; width: 325px; border-radius: 50%;">
 
 [//]: # (write a bit about yourself here)
 ### Who am I and why do I have a website?  
 I'm a PhD Candidate in Political Communication at the 
-<a href="https://www.wur.nl/en/Research-Results/Chair-groups/Social-Sciences/Strategic-Communication-Group.htm"
+<a href="https://www.wur.nl/en/chair-groups/cpte/strategic-communication"
    target="_blank" rel="noopener noreferrer">
    Strategic Communication Group
 </a> 
