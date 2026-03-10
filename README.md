@@ -16,7 +16,7 @@ A **mobile-friendly update** with improved layout and navigation will follow soo
 
 ## Acknowledgements & Theme Credits  
 
-This site is adapted from **[hello](https://github.com/saragong/hello)**, a minimalist template for personal websites on GitHub Pages, originally created by **[Sara Gong](https://saragong.github.io/)** at the University of Southern California.  
+This site is adapted from **[hello](https://github.com/saragong/hello)**, a minimalist template for personal websites on GitHub Pages, originally created by **[Sara Gong](https://github.com/saragong)** at the University of Southern California.  
 The *hello* theme was designed to make GitHub Pages accessible for everyone — no Ruby environment, Jekyll setup, or coding experience required — and provides a simple single-page layout with customizable “about,” “portfolio,” and “call-to-action” sections.
 
 **hello** itself is adapted from **[Twenty](https://html5up.net/twenty)**, a responsive theme by **HTML5 Up**, and uses clean Liquid and Markdown-based customization.
