@@ -7,7 +7,7 @@ layout: hello-default
 banner_title: Denise J. Roth
 banner_subtitle: PhD Candidate in Political Communication
 background_image: /images/back.png
-
+google_site_verifitication: googlee76fd8a33fb86dff
 # all of the following variables are optional -----------------
 # page_url: /hello # only include this variable if you aren't building the page to your primary domain 
 
