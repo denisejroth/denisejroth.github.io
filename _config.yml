@@ -7,6 +7,7 @@ description: >
   PhD Candidate in Political Communication
 baseurl: ""
 google_site_verification: WqwhLKWThOFVhNyiX8m5Qw0yv9Gj85ywwlnMrUO8P_Y
+bing_site_verification: A608F984B739DB01E21F9927C671737C
 plugins:
   - jekyll-feed
   - jekyll-sitemap
