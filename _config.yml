@@ -6,7 +6,7 @@ author: Denise J. Roth
 description: > 
   PhD Candidate in Political Communication
 baseurl: ""
-
+google_site_verification: gmK-cpuQKKfHo3p984EzYo6J94pn394jaz6692WIbg4
 plugins:
   - jekyll-feed
   - jekyll-sitemap
