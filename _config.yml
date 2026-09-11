@@ -1,19 +1,31 @@
 # _config.yml
 
-# required, replace with your own information -----
-title: Personal Website 
+title: Denise J. Roth
 author: Denise J. Roth
-description: > 
-  PhD Candidate in Political Communication
+description: >
+  PhD Candidate in Political Communication at Wageningen University & Research,
+  researching the intersection of science, media, and politics.
+url: "https://denisejroth.github.io"
 baseurl: ""
+lang: en
+
+# Search-engine verification
 google_site_verification: WqwhLKWThOFVhNyiX8m5Qw0yv9Gj85ywwlnMrUO8P_Y
 bing_site_verification: A608F984B739DB01E21F9927C671737C
+
+# Used by jekyll-seo-tag for richer link previews
+social:
+  name: Denise J. Roth
+  links:
+    - https://github.com/denisejroth
+    - https://linkedin.com/in/denise-j-roth
+    - https://orcid.org/0009-0005-6951-2930
+    - https://bsky.app/profile/deniseroth.bsky.social
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  
-#---------------------------------------------------
 
 exclude:
   - .sass-cache/
@@ -21,4 +33,4 @@ exclude:
   - gemfiles/
   - Gemfile
   - Gemfile.lock
-
+  - README.md
