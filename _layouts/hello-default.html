@@ -1,331 +1,241 @@
-<!-- design: hello for github pages by sng -->
-
 <!DOCTYPE html>
-<html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.description | default: site.description | strip_newlines }}">
 
-  <!--HEAD-->
-  <head>
-    <style>html{visibility: hidden;opacity:0;}</style>
-    <title>{{ site.title }}</title>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="description" content="{{ site.description }}">
-    <meta name="keywords" content="" />
+  {% if page.favicon %}<link rel="icon" href="{{ page.favicon }}" type="image/x-icon">{% endif %}
+  {% if page.google_site_verification %}<meta name="google-site-verification" content="{{ page.google_site_verification }}">{% endif %}
+  <meta name="msvalidate.01" content="A608F984B739DB01E21F9927C671737C">
 
-    <!--favicon-->
-    {% if page.favicon %}
-    <link rel="icon" href= "{{ page.favicon }}" type="image/x-icon" />
-    {% endif %}
+  {%- feed_meta -%}
+  {%- seo -%}
 
-    <!--jekyll plugins-->
-    {%- feed_meta -%}
-	<meta name="msvalidate.01" content="A608F984B739DB01E21F9927C671737C" />
-    {%- seo -%}
+  {% if page.google_analytics %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ page.google_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ page.google_analytics }}');
+  </script>
+  {% endif %}
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    {% if page.google_analytics %}
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ page.google_analytics }}"></script>
-      <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  <!-- Set theme before paint to avoid a flash -->
+  <script>
+    (function(){try{var t=localStorage.getItem('djr-theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
+  </script>
 
-      gtag('config', '{{ page.google_analytics }}');
-    </script>
-    {% endif %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}?v=1">
+</head>
 
+<body>
+<a class="skip" href="#main">Skip to content</a>
 
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/jquery.dropotron.min.js"></script>
-    <script src="/js/jquery.scrolly.min.js"></script>
-    <script src="/js/jquery.scrollgress.min.js"></script>
-    <script src="/js/skel.min.js"></script>
-    <script src="/js/skel-layers.min.js"></script>
-    <script src="/js/init.js"></script>
-    <noscript>
-        <link rel="stylesheet" href="/css/skel.css" />
-        <link rel="stylesheet" href="/css/style.css" />
-        <link rel="stylesheet" href="/css/style-wide.css" />
-        <link rel="stylesheet" href="/css/style-noscript.css" />
-    </noscript>
-	<link rel="stylesheet" href="/css/custom.css?v=5">
-    <meta name="viewport" content="width=device-width">
-
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  </head>
-
-
-  <body class="index">
-
-    <!-- HEADER -->		
-    <header id="header">
-      <h1 id="logo" style="text-transform:lowercase">
-        <a href="/">home</a></h1>
-      <nav id="nav">
-        <ul>
-          <li style="text-transform:lowercase"><a href="{{ page.page_url }}/#about">about</a></li>
-		  <li style="text-transform:lowercase"><a href="{{ page.page_url }}/#cv">cv</a></li>
-		  <li style="text-transform:lowercase"><a href="{{ page.page_url }}/#research">research</a></li>
-          {% if page.portfolio %}
-          <li style="text-transform:lowercase"><a href="{{ page.page_url }}/#{{ page.portfolio }}">{{ page.portfolio }}</a></li>
-          {% endif %}
-          {% if page.cta %}
-          <li style="text-transform:lowercase"><a href="{{ page.page_url }}/#{{ page.cta }}"> {{ page.cta }} </a></li>
-          {% endif %}
-        </ul>
-      </nav>
-    </header>
-
-    <!-- BANNER -->		
-    <section id="banner" 
-    {% if page.background_image %}
-    style="background-image: url('{{ page.background_image }}'); background-attachment: fixed; background-size: cover;"
-        {% endif %}>
-
-        <div class="inner">
-
-            <h2 style="font-size:3em; text-transform:none">{{ page.banner_title }}</h2>
-            <p style="text-transform:none;">{{ page.banner_subtitle }}</p>
-      
-        </div>
-
-    </section>
-
-<!--CONTENT-->
-
-    <div class="page-content">
-
-        <article id="main">
-            <!-- section: about -->
-              <header class="special container" id="about">
-                <h2 ><strong>about</strong></h2>
-              </header>
-
-              <section class="special container" style="margin-bottom:10em">
-
-                  <div style="padding: 0 1em; text-align:center"> 
-                    {{ content }}</div>
-      
-                  <!-- button -->
-                  {% if page.about_button %}
-                  <section class="wrapper style1 container special">
-                        <footer class="major">
-                            <ul class="buttons">
-                              <li><a href="{{ page.about_button }}" class="button">{{ page.about_button_label }}</a></li>
-                            </ul>
-                        </footer>
-                  </section>
-                {% endif %}      
-              </section>    
-			<!-- section: cv -->
-{% if page.cv %}
-  <header class="special container" id="cv">
-    <h2><strong>cv</strong></h2>
-  </header>
-
-  <section class="special container" style="margin-bottom:10em">
-    <div style="padding: 0 1em; text-align:center">
-      <p>{{ page.cv_description }}</p>
-    </div>
-
-    {% if page.cv_button %}
-    <section class="wrapper style1 container special">
-      <footer class="major">
-        <ul class="buttons">
-          <li>
-  <a href="{{ page.cv_button }}" 
-     class="button" 
-     target="_blank" 
-     rel="noopener noreferrer">
-     {{ page.cv_button_label }}
-  </a>
-</li>
-        </ul>
-      </footer>
-    </section>
-    {% endif %}
-  </section>
-{% endif %}
-
-<!-- section: research -->
-{% if page.research %}
-<section class="wrapper style3 container special" id="research">
-  <header class="special">
-    <h2><strong>research</strong></h2>
-  </header>
-
-  <section class="special container" style="margin-bottom:10em">
-    <div style="padding: 0 1em; max-width: 700px; margin: 0 auto; text-align: left;">
-
-      {% if page.research_intro %}
-        <p style="text-align:center; margin-bottom:2em;">{{ page.research_intro }}</p>
-      {% endif %}
-
-      <ul class="pub-list">
-        {% for pub in page.research_list %}
-          <li class="pub-item">
-            <span class="pub-meta">
-              {{ pub.author }}
-              {% if pub.status == "accepted" or pub.status == "published" %}
-                ({{ pub.year }}).
-              {% endif %}
-              <br>
-              “{{ pub.title }}.”
-
-              {%- comment -%}
-              Only show journal if published or accepted
-              {%- endcomment -%}
-              {% if pub.journal and (pub.status == "accepted" or pub.status == "published") %}
-                <em>{{ pub.journal }}</em>.
-              {% endif %}
-
-              {% if pub.status == "wip" %}
-                <span class="status-tag wip">Work in Progress</span>
-              {% elsif pub.status == "under_review" %}
-                <span class="status-tag review">Under Review</span>
-              {% elsif pub.status == "accepted" %}
-                <span class="status-tag accepted">Accepted</span>
-              {% elsif pub.status == "published" %}
-                <a href="{{ pub.link }}" target="_blank" class="doi-button">DOI</a>
-              {% endif %}
-            </span>
-          </li>
-        {% endfor %}
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="#top">{{ page.banner_title | default: site.author }}</a>
+    <nav aria-label="Primary">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        {% if page.research %}<li><a href="#research">Research</a></li>{% endif %}
+        {% if page.cv %}<li><a href="#cv">CV</a></li>{% endif %}
+        {% if page.cta %}<li><a href="#connect">{{ page.cta | capitalize }}</a></li>{% endif %}
       </ul>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch color theme">
+      <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M19.1 4.9l-1.8 1.8M6.7 17.3l-1.8 1.8"/></svg>
+      <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.6 6.6 0 0 0 9.8 9.8z"/></svg>
+    </button>
+  </div>
+</header>
 
+<main id="main">
+  <span id="top"></span>
+
+  <!-- HERO -->
+  <section class="wrap hero" aria-labelledby="hero-name">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        {% if page.hero_eyebrow %}<p class="eyebrow">{{ page.hero_eyebrow }}</p>{% endif %}
+        <h1 id="hero-name">{{ page.banner_title }}</h1>
+        <p class="role">{{ page.banner_subtitle }}</p>
+        {% if page.hero_lede %}<p class="lede">{{ page.hero_lede }}</p>{% endif %}
+        <div class="hero-actions">
+          {% if page.cv_button %}
+          <a class="btn btn-primary" href="{{ page.cv_button | relative_url }}" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0l4-4m-4 4l-4-4"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>
+            {{ page.cv_button_label | default: 'Download CV' }}
+          </a>
+          {% endif %}
+          <a class="btn btn-ghost" href="mailto:{{ page.email }}">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6.5l8.5 6 8.5-6"/></svg>
+            Email me
+          </a>
+        </div>
+      </div>
+      {% if page.profile_image %}
+      <img class="portrait" src="{{ page.profile_image | relative_url }}" alt="Portrait of {{ page.banner_title }}" width="520" height="520">
+      {% endif %}
     </div>
   </section>
-</section>
-{% endif %}
 
-            <!-- section: work
-            {% if page.portfolio %}
-            <section class="wrapper style3 container special" id="{{ page.portfolio }}">
-					      <header class="special">
-                  <h2><strong>{{ page.portfolio }}</strong></h2>
-                </header>
-                <p>{{ page.portfolio_description }}</p>
-                {% for categories in site.data[page.portfolio][page.portfolio] %}
-                <div class="row">
+  <!-- ABOUT -->
+  <section class="wrap section" id="about" aria-labelledby="about-h">
+    <div class="section-head">
+      <p class="eyebrow">About</p>
+      <h2 id="about-h">{{ page.about_heading | default: 'About me' }}</h2>
+    </div>
+    <div class="prose">
+      {{ content }}
+    </div>
+  </section>
 
-                          <div class="12u">
-                              <h3 style="margin-bottom:2em; font-size:1.25em"><strong>{{ categories.category}}</strong></h3>
-                          </div>
-
-                          {% for items in categories.items %}
-                          <div class="6u item">
-                            <section>
-                              <div class="image featured">
-                                  <img src="{{ items.image }}" alt="" />
-                              </div>
-
-                              {% include {{ items.item }} %}
-                            </section>
-                          </div>
-                          {% endfor %}
-                </div>
-
-                {% endfor %}
-
-            </section>
-            {% endif %}
-      </article>
--->
-        <!-- section: cta -->
-        {% if page.cta %}
-      <section class="cta" id="{{ page.cta }}" 
-      {% if page.background_image %}
-      style="background-image: url('{{ page.background_image }}'); background-attachment: fixed; background-size: cover;"
-      {% endif %}>
-			
-          <header class="major">
-            <h2>{{ page.cta }}</h2>
-          </header>
-          {% if page.cta %}
-          <p style="padding: 0em 1em; text-align: center">{{ page.cta_description }}</p>
-          {% endif %}
-          <footer style="margin-bottom:8em">
-              {% if page.cta_button %}
-            <ul class="buttons">
-              <li><a href="{{ page.cta_button }}" class="button">{{ page.cta_button_label }}</a></li>
-            </ul>
-              {% endif %}
-          </footer>
-        
-        </section>
-        {% endif %}
+  <!-- RESEARCH -->
+  {% if page.research %}
+  {%- assign a = page.research_list | where: "status", "published" -%}
+  {%- assign b = page.research_list | where: "status", "accepted" -%}
+  {%- assign done = a | concat: b -%}
+  {%- assign review = page.research_list | where: "status", "under_review" -%}
+  {%- assign wip = page.research_list | where: "status", "wip" -%}
+  <section class="wrap section" id="research" aria-labelledby="research-h">
+    <div class="section-head">
+      <p class="eyebrow">Research</p>
+      <h2 id="research-h">{{ page.research_heading | default: 'Publications &amp; working papers' }}</h2>
+      {% if page.research_intro %}<p>{{ page.research_intro }}</p>{% endif %}
     </div>
 
-    <!-- Footer -->
-    <footer id="footer">
+    {% if done.size > 0 %}
+    <div class="pub-group">
+      <div class="pub-group-title"><h3>Published &amp; accepted</h3><span class="count">{{ done.size }}</span></div>
+      <ol class="pub-list">
+        {% for pub in done %}
+        <li class="pub-item">
+          <span class="pub-year">{{ pub.year }}</span>
+          <div class="pub-body">
+            <p class="pub-title">{{ pub.title }}</p>
+            <p class="pub-authors">{{ pub.author }}</p>
+            {% if pub.journal %}<span class="pub-venue">{{ pub.journal }}</span>{% endif %}
+            {% if pub.link %}
+            <div class="pub-links">
+              <a class="doi-btn" href="{{ pub.link }}" target="_blank" rel="noopener">Article ↗</a>
+            </div>
+            {% endif %}
+          </div>
+        </li>
+        {% endfor %}
+      </ol>
+    </div>
+    {% endif %}
 
-   <ul class="icons">
-  {% if page.github_username %}
-  <li>
-    <a href="https://github.com/{{ page.github_username }}" 
-       class="icon circle" 
-       aria-label="GitHub"
-       target="_blank" 
-       rel="noopener noreferrer">
-      <img src="/images/github.svg" alt="GitHub" />
-    </a>
-  </li>
+    {% if review.size > 0 %}
+    <div class="pub-group">
+      <div class="pub-group-title"><h3>Under review</h3><span class="count">{{ review.size }}</span></div>
+      <ol class="pub-list">
+        {% for pub in review %}
+        <li class="pub-item">
+          <span class="pub-year tbd">—</span>
+          <div class="pub-body">
+            <p class="pub-title">{{ pub.title }}</p>
+            <p class="pub-authors">{{ pub.author }}</p>
+            <div class="pub-links"><span class="status-tag">Under review</span></div>
+          </div>
+        </li>
+        {% endfor %}
+      </ol>
+    </div>
+    {% endif %}
+
+    {% if wip.size > 0 %}
+    <div class="pub-group">
+      <div class="pub-group-title"><h3>In preparation</h3><span class="count">{{ wip.size }}</span></div>
+      <ol class="pub-list">
+        {% for pub in wip %}
+        <li class="pub-item">
+          <span class="pub-year tbd">—</span>
+          <div class="pub-body">
+            <p class="pub-title">{{ pub.title }}</p>
+            <p class="pub-authors">{{ pub.author }}</p>
+            <div class="pub-links"><span class="status-tag">In preparation</span></div>
+          </div>
+        </li>
+        {% endfor %}
+      </ol>
+    </div>
+    {% endif %}
+  </section>
   {% endif %}
 
-  {% if page.linkedin %}
-  <li>
-    <a href="https://linkedin.com/in/{{ page.linkedin }}" 
-       class="icon circle" 
-       aria-label="LinkedIn"
-       target="_blank" 
-       rel="noopener noreferrer">
-      <img src="/images/LI.png" alt="LinkedIn" />
-    </a>
-  </li>
+  <!-- CV -->
+  {% if page.cv %}
+  <section class="wrap section" id="cv" aria-labelledby="cv-h">
+    <div class="section-head">
+      <p class="eyebrow">Curriculum Vitae</p>
+      <h2 id="cv-h">{{ page.cv_heading | default: 'The full record' }}</h2>
+      {% if page.cv_description %}<p>{{ page.cv_description }}</p>{% endif %}
+    </div>
+    {% if page.cv_button %}
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="{{ page.cv_button | relative_url }}" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0l4-4m-4 4l-4-4"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>
+        {{ page.cv_button_label | default: 'Download CV' }} (PDF)
+      </a>
+    </div>
+    {% endif %}
+  </section>
   {% endif %}
 
-  {% if page.orcid %}
-  <li>
-    <a href="https://orcid.org/{{ page.orcid }}" 
-       class="icon circle" 
-       aria-label="ORCID"
-       target="_blank" 
-       rel="noopener noreferrer">
-      <img src="/images/ORCID.svg" alt="ORCID iD" />
-    </a>
-  </li>
+  <!-- CONNECT -->
+  {% if page.cta %}
+  <section class="wrap section" id="connect" aria-labelledby="connect-h">
+    <div class="section-head">
+      <p class="eyebrow">{{ page.cta | capitalize }}</p>
+      <h2 id="connect-h">{{ page.cta_heading | default: 'Get in touch' }}</h2>
+    </div>
+    <div class="connect-card">
+      {% if page.cta_description %}<p>{{ page.cta_description }}</p>{% endif %}
+      {% if page.email %}
+      <p class="contact-line">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1.05rem;height:1.05rem;color:var(--accent)"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6.5l8.5 6 8.5-6"/></svg>
+        <a href="mailto:{{ page.email }}">{{ page.email }}</a>
+      </p>
+      {% endif %}
+      {% include social.html %}
+    </div>
+  </section>
   {% endif %}
+</main>
 
-  {% if page.bluesky_username %}
-  <li>
-    <a href="https://bsky.app/profile/{{ page.bluesky_username }}" 
-       class="icon circle" 
-       aria-label="Bluesky"
-       target="_blank" 
-       rel="noopener noreferrer">
-      <img src="/images/Bluesky_Logo.svg.png" alt="Bluesky" />
-    </a>
-  </li>
-  {% endif %}
-</ul>
-
-<ul class="copyright">
-  <li>this website is maintained by {{ site.author }}</li>
-  <li>
-    design: 
-    <a href="https://github.com/saragong/hello" target="_blank" rel="noopener noreferrer">
-      <strong>hello</strong>
-    </a> for GitHub Pages
-  </li>
-  <li>
-    adapted from 
-    <a href="https://html5up.net/twenty" target="_blank" rel="noopener noreferrer">
-      <strong>Twenty</strong>
-    </a> by HTML5 Up
-  </li>
-</ul>
-
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-meta">
+      <div>© <span id="yr">{{ 'now' | date: '%Y' }}</span> {{ site.author }}{% if page.affiliation %} · {{ page.affiliation }}{% endif %}</div>
+      <div>Built with <a href="https://pages.github.com" target="_blank" rel="noopener">GitHub Pages</a>.</div>
+    </div>
+    {% include social.html %}
+  </div>
 </footer>
 
-  </body>
-
+<script>
+(function(){
+  var root = document.documentElement;
+  var KEY = "djr-theme";
+  var btn = document.getElementById("themeToggle");
+  function current(){
+    var attr = root.getAttribute("data-theme");
+    if (attr) return attr;
+    return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  }
+  if (btn) btn.addEventListener("click", function(){
+    var next = current() === "dark" ? "light" : "dark";
+    root.setAttribute("data-theme", next);
+    try { localStorage.setItem(KEY, next); } catch(e){}
+  });
+})();
+</script>
+</body>
 </html>
