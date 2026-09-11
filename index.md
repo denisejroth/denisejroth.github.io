@@ -1,131 +1,115 @@
 ---
 layout: hello-default
 
-# using Markdown language, you can customize the following variables!
+# ─────────────────────────────────────────────────────────────
+#  Edit the text of your site by changing the values below.
+# ────────────────────────────────────────────────────────────
 
-# these variables are required -------------------------------
+# Header / hero
 banner_title: Denise J. Roth
 banner_subtitle: PhD Candidate in Political Communication
-background_image: /images/back.png
-google_site_verification: gmK-cpuQKKfHo3p984EzYo6J94pn394jaz6692WIbg4
-# all of the following variables are optional -----------------
-# page_url: /hello # only include this variable if you aren't building the page to your primary domain 
+hero_eyebrow: "Political Communication · Wageningen University &amp; Research"
+hero_lede: "I study how science becomes politicized in public debate — how scientific uncertainty gets used to cast doubt, shape narratives, and shift public trust, across health misinformation, populist communication, and polarization."
+profile_image: /images/profile.jpg
+affiliation: Wageningen University &amp; Research
 
-# favicon
+# Contact + verification
+email: denise.roth@wur.nl
+google_site_verification: gmK-cpuQKKfHo3p984EzYo6J94pn394jaz6692WIbg4
+
+# Favicon
 favicon: /assets/ico/DJR_icon2.ico
 
-# social media
-# twitter_username: notsaragong # # your twitter handle
-github_username:  denisejroth # your github username
-linkedin: denise-j-roth # the part after ("https://www.linkedin.com/in/...")
+# Social / profiles  (leave a line blank or delete it to hide that icon)
+github_username: denisejroth
+linkedin: denise-j-roth
 bluesky_username: deniseroth.bsky.social
 orcid: 0009-0005-6951-2930
-# facebook_username: <-- your facebook username (the part after "https://www.facebook.com/...")
-# google_analytics: <-- your google analytics Tracking ID
+# google_scholar:  <-- add the ID from your Scholar profile URL
+#                      (scholar.google.com/citations?user=THIS_PART) to show the icon
+# google_analytics:  <-- your GA measurement ID, if you use one
 
-# By declaring these variables, you can include a button that links to an external website or to media.
-# about_button: https://github.com/saragong/hello # the link
-# about_button_label: get hello # the label on the button
+# About section heading (body text is written below the "---")
+about_heading: "Who I am, and why I have a website"
 
+# CV section
 cv: true
-cv_description: You can view or download my full curriculum vitae here.
+cv_heading: "The full record"
+cv_description: "Education, positions, teaching, and a complete publication list in one PDF."
 cv_button: /assets/Academic_CV.pdf
 cv_button_label: Download CV
 
-# Research section (was "publications")
+# Connect / call-to-action section
+cta: connect
+cta_heading: "Get in touch"
+cta_description: "Please reach out if you have questions or would like to talk about research, collaboration, or data."
+
+# ─────────────────────────────────────────────────────────────
+#  Research
+#  status can be: published · accepted · under_review · wip
+#  Groups show in this order: published/accepted, then under review,
+#  then in preparation. Within a group, entries appear in the order
+#  listed below — put the most recent at the top.
+# ─────────────────────────────────────────────────────────────
 research: true
-research_intro: "Current projects, accepted papers, and published work."
+research_heading: "Publications &amp; working papers"
+research_intro: "Peer-reviewed articles, manuscripts under review, and work in progress."
 
 research_list:
-  - author: "<strong>Roth, D.J.</strong>, Bai, N., Biesbroek, R., Dewulf, A., Kruikemeier, S., De Leur, D., van der Velden, M.A.C.G., de Vries, E., & Vliegenthart, R."
+  - author: "<strong>Roth, D.J.</strong>, Bai, N., Biesbroek, R., Dewulf, A., Kruikemeier, S., De Leur, D., van der Velden, M.A.C.G., de Vries, E., &amp; Vliegenthart, R."
     year: 2025
     title: "Unveiling Climate Adaptation: A Comprehensive Analysis of Agenda-Setting Dynamics in the United Kingdom and the Netherlands"
     journal: Science Communication
     link: https://doi.org/10.1177/10755470251376576
     status: published
 
-  - author: "Schrijver, L., <strong>Roth, D.J.</strong>, Jans, E. G. M., Vrielink, J., & Guldemond, P."
+  - author: "Schrijver, L., <strong>Roth, D.J.</strong>, Jans, E. G. M., Vrielink, J., &amp; Guldemond, P."
     year: 2025
     title: "Effective Ways of Casting Doubt? Examining the Different Effects of Blatant and Suggestive Disinformation"
     journal: International Journal of Communication
     link: https://ijoc.org/index.php/ijoc/article/view/23276
     status: published
 
-  - author: "Van der Velden, M.A.C.G., López Ortega, A., <strong>Roth, D.J.</strong>, & Guldemond, P."
+  - author: "Van der Velden, M.A.C.G., López Ortega, A., <strong>Roth, D.J.</strong>, &amp; Guldemond, P."
     year: 2025
-    title: "Populism and Polarization: A Nostalgic Narrative of ‘Us’ and ‘Them’"
-    journal: Government & Opposition
+    title: "Populism and Polarization: A Nostalgic Narrative of 'Us' and 'Them'"
+    journal: Government &amp; Opposition
     link: https://doi.org/10.1017/gov.2025.10020
     status: published
 
-  - author: "<strong>Roth, D.J.</strong>, Schäfer, S., Kruikemeier, S., & Vliegenthart, R."
+  - author: "<strong>Roth, D.J.</strong>, Schäfer, S., Kruikemeier, S., &amp; Vliegenthart, R."
     title: "Evidence-Informed Policymaking and the Populist Challenge: Public Attitudes Across 16 European Countries"
-    journal: "Under review"
     status: under_review
 
-  - author: "Schäfer, S., <strong>Roth, D.J.</strong>, Mede, N., Kruikemeier, S., & Vliegenthart, R."
+  - author: "Schäfer, S., <strong>Roth, D.J.</strong>, Mede, N., Kruikemeier, S., &amp; Vliegenthart, R."
     title: "Playing it Smart: Can Gamification and Alarmist Framing Improve Public Understanding of Zoonotic Diseases?"
-    journal: "Under review"
     status: under_review
 
-  - author: "Van der Velden, M., López Ortega, A., <strong>Roth, D.J.</strong>, & Guldemond, P."
+  - author: "Van der Velden, M., López Ortega, A., <strong>Roth, D.J.</strong>, &amp; Guldemond, P."
     title: "Do We All Long for the Past? Investigating Nostalgia as a Persuasive Political Rhetorical Strategy"
-    journal: "Under review"
     status: under_review
 
-  - author: "<strong>Roth, D.J.</strong>, De Vries, E., Schäfer, S., Kruikemeier, S., & Vliegenthart, R."
+  - author: "<strong>Roth, D.J.</strong>, De Vries, E., Schäfer, S., Kruikemeier, S., &amp; Vliegenthart, R."
     title: "Targeted Hostility: Hateful Communication in YouTube Comments Toward Journalists, Politicians, and Scientists"
-    journal: "Manuscript in preparation"
     status: wip
 
-  - author: "<strong>Roth, D.J.</strong>, van der Velden, M.A.C.G., & Damstra, A."
+  - author: "<strong>Roth, D.J.</strong>, van der Velden, M.A.C.G., &amp; Damstra, A."
     title: "The Scientization of Politics: How Politicians Use Science Instrumentally to Depoliticize Conflict"
-    journal: "Manuscript in preparation"
     status: wip
 
-  - author: "<strong>Roth, D.J.</strong>, & Shugars, S."
-    title: "“Health Communication in Black-Oriented Media: A Computational Text Analysis of YouTube"
-    journal: "Manuscript in preparation"
+  - author: "<strong>Roth, D.J.</strong>, &amp; Shugars, S."
+    title: "Health Communication in Black-Oriented Media: A Computational Text Analysis of YouTube"
     status: wip
-
-
-
-# optional portfolio section ------------------------------------------
-
-# By declaring these variables, you can include a portfolio showcasing your work and organize your portfolio's items into a custom layout, all without adding any CSS. In addition, you must 1) create an HTML file in the_includes folder for each project with the text you'd like to display, and 2) create a YAML file in the _data folder describing the order in which each project should be shown and categorized. See `/includes/example.html` and `/_data/work.yml` for examples.
-
-# portfolio: work # the heading for your portfolio and title of your YAML file
-# portfolio_description: you can include a portfolio showcasing your work and organize your portfolio's items into a custom layout, all without adding any CSS. # a description to be desplayed below the heading and above the content
-
-# optional CTA section --------------------------------------------------
-
-# By declaring these variables, you can include a CTA section.
-cta: connect # the heading for your CTA section
-cta_description: Please reach out if you have questions or would like to talk about research. # a description to be desplayed below the heading and above the content
-cta_button: mailto:denise.roth@wur.nl # a link to an external website or to media
-cta_button_label: contact # the label on the button
-
 ---
-<img src="/images/profile.jpg" 
-     alt="Denise J. Roth" 
-     style="display: block; margin: 0 auto 1.5em auto; width: 325px; border-radius: 50%;">
 
-[//]: # (write a bit about yourself here)
-### Who am I and why do I have a website?  
-I'm a PhD Candidate in Political Communication at the 
-<a href="https://www.wur.nl/en/chair-groups/cpte/strategic-communication"
-   target="_blank" rel="noopener noreferrer">
-   Strategic Communication Group
-</a> 
-at 
-<a href="https://www.wur.nl/en.htm"
-   target="_blank" rel="noopener noreferrer">
-   Wageningen University &amp; Research
-</a>
+I'm a PhD Candidate in Political Communication at the
+<a href="https://www.wur.nl/en/chair-groups/cpte/strategic-communication" target="_blank" rel="noopener noreferrer">Strategic Communication Group</a>
+at
+<a href="https://www.wur.nl/en.htm" target="_blank" rel="noopener noreferrer">Wageningen University &amp; Research</a>,
 with a research focus on the intersection of science, media, and politics.
 
-I studied **Political Science** at the University of Mannheim, where I developed a strong interest in political systems and public discourse. I then completed a **Research Master's degree in the Social Sciences** at **Vrije Universiteit Amsterdam**, with a specialization in **Political Communication**. The interdisciplinary setup of the program allowed me to combine perspectives from media studies, political science, and sociology.
+I studied **Political Science** at the University of Mannheim, where I developed a strong interest in political systems and public discourse. I then completed a **Research Master's in the Social Sciences** at **Vrije Universiteit Amsterdam**, specializing in **Political Communication**. The interdisciplinary setup of the program let me combine perspectives from media studies, political science, and sociology.
 
-My current research looks at how science becomes politicized in public debate—especially how actors use **scientific uncertainty** to cast doubt, shape narratives, or influence public trust. I'm particularly interested in topics like **health misinformation**, **populist communication**, and **polarization**. Methodologically, I work with **computational text analysis**, surveys, and experiments.
+My current research looks at how science becomes politicized in public debate — especially how actors use **scientific uncertainty** to cast doubt, shape narratives, or influence public trust. I'm particularly interested in **health misinformation**, **populist communication**, and **polarization**. Methodologically, I work with **computational text analysis**, surveys, and experiments.
 
-Outside of academia, I enjoy **bird watching** (yes, really), experimenting with **vegan recipes** that don’t always work out, and **lifting heavy things** at the gym to balance all the time I spend thinking about misinformation, democratic erosion, and hate speech.
+Outside of academia, I enjoy **bird watching** (yes, really), experimenting with **vegan recipes** that don't always work out, and **lifting heavy things** at the gym to balance all the time I spend thinking about misinformation, democratic erosion, and hate speech.
