@@ -25,7 +25,7 @@ github_username: denisejroth
 linkedin: denise-j-roth
 bluesky_username: deniseroth.bsky.social
 orcid: 0009-0005-6951-2930
-# google_scholar:  <-- add the ID from your Scholar profile URL
+google_scholar:  https://scholar.google.com/citations?user=TfOCVHcAAAAJ
 #                      (scholar.google.com/citations?user=THIS_PART) to show the icon
 # google_analytics:  <-- your GA measurement ID, if you use one
 
