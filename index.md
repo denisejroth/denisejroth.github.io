@@ -78,7 +78,7 @@ research_list:
     title: "Playing it Smart: Can Gamification and Alarmist Framing Improve Public Understanding of Zoonotic Diseases?"
     status: under_review
 
-  - author: "Van der Velden, M., López Ortega, A., <strong>Roth, D.J.</strong>, &amp; Guldemond, P."
+  - author: "Van der Velden, M.A.C.G., López Ortega, A., <strong>Roth, D.J.</strong>, &amp; Guldemond, P."
     title: "Do We All Long for the Past? Investigating Nostalgia as a Persuasive Political Rhetorical Strategy"
     status: under_review
 
