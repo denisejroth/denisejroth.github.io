@@ -25,8 +25,7 @@ github_username: denisejroth
 linkedin: denise-j-roth
 bluesky_username: deniseroth.bsky.social
 orcid: 0009-0005-6951-2930
-google_scholar:  https://scholar.google.com/citations?user=TfOCVHcAAAAJ
-#                      (scholar.google.com/citations?user=THIS_PART) to show the icon
+google_scholar: TfOCVHcAAAAJ   # the ID from your Scholar profile URL (…/citations?user=THIS_PART)
 # google_analytics:  <-- your GA measurement ID, if you use one
 
 # About section heading (body text is written below the "---")
@@ -44,12 +43,6 @@ cta: connect
 cta_heading: "Get in touch"
 cta_description: "Please reach out if you have questions or would like to talk about research, collaboration, or data."
 
-# ─────────────────────────────────────────────────────────────
-#  Research
-#  status can be: published · accepted · under_review · wip
-#  Groups show in this order: published/accepted, then under review,
-#  then in preparation. Within a group, entries appear in the order
-#  listed below — put the most recent at the top.
 # ─────────────────────────────────────────────────────────────
 research: true
 research_heading: "Publications &amp; working papers"
