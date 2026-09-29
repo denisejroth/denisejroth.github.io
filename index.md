@@ -88,10 +88,6 @@ research_list:
     title: "Do We All Long for the Past? Investigating Nostalgia as a Persuasive Political Rhetorical Strategy"
     status: under_review
 
-  - author: "Alva, D., <strong>Roth, D.J.</strong>, Divya, S., Téliz Martínez, S., &amp; Zhang, Y."
-    title: "Who's Asking? Auditing (Social Identity) Bias in Large Language Model Responses to Sexual and Reproductive Health (SRH) Information Seeking"
-    status: wip
-
   - author: "<strong>Roth, D.J.</strong>, De Vries, E., Schäfer, S., Kruikemeier, S., &amp; Vliegenthart, R."
     title: "Targeted Hostility: Hateful Communication in YouTube Comments Toward Journalists, Politicians, and Scientists"
     status: wip
@@ -103,6 +99,11 @@ research_list:
   - author: "<strong>Roth, D.J.</strong>, &amp; Shugars, S."
     title: "Health Communication in Black-Oriented Media: A Computational Text Analysis of YouTube"
     status: wip
+
+  - author: "Alva, D., <strong>Roth, D.J.</strong>, Divya, S., Téliz Martínez, S., &amp; Zhang, Y."
+    title: "Who's Asking? Auditing (Social Identity) Bias in Large Language Model Responses to Sexual and Reproductive Health (SRH) Information Seeking"
+    status: wip
+    
 ---
 
 I'm a PhD Candidate in Political Communication at the
