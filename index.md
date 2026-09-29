@@ -44,6 +44,12 @@ cta_heading: "Get in touch"
 cta_description: "Please reach out if you have questions or would like to talk about research, collaboration, or data."
 
 # ─────────────────────────────────────────────────────────────
+research
+#  status can be: published · accepted · under_review · wip
+#  Groups show in this order: published/accepted, then under review,
+#  then in preparation. Within a group, entries appear in the order
+#  listed below — put the most recent at the top.
+# ─────────────────────────────────────────────────────────────
 research: true
 research_heading: "Publications &amp; working papers"
 research_intro: "Peer-reviewed articles, manuscripts under review, and work in progress."
@@ -78,9 +84,13 @@ research_list:
     title: "Playing it Smart: Can Gamification and Alarmist Framing Improve Public Understanding of Zoonotic Diseases?"
     status: under_review
 
-  - author: "Van der Velden, M.A.C.G., López Ortega, A., <strong>Roth, D.J.</strong>, &amp; Guldemond, P."
+  - author: "Van der Velden, M., López Ortega, A., <strong>Roth, D.J.</strong>, &amp; Guldemond, P."
     title: "Do We All Long for the Past? Investigating Nostalgia as a Persuasive Political Rhetorical Strategy"
     status: under_review
+
+  - author: "Alva, D., <strong>Roth, D.J.</strong>, Divya, S., Téliz Martínez, S., &amp; Zhang, Y."
+    title: "Who's Asking? Auditing (Social Identity) Bias in Large Language Model Responses to Sexual and Reproductive Health (SRH) Information Seeking"
+    status: wip
 
   - author: "<strong>Roth, D.J.</strong>, De Vries, E., Schäfer, S., Kruikemeier, S., &amp; Vliegenthart, R."
     title: "Targeted Hostility: Hateful Communication in YouTube Comments Toward Journalists, Politicians, and Scientists"
