@@ -44,7 +44,7 @@ cta_heading: "Get in touch"
 cta_description: "Please reach out if you have questions or would like to talk about research, collaboration, or data."
 
 # ─────────────────────────────────────────────────────────────
-research
+#  Research
 #  status can be: published · accepted · under_review · wip
 #  Groups show in this order: published/accepted, then under review,
 #  then in preparation. Within a group, entries appear in the order
